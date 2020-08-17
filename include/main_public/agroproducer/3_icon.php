@@ -1,0 +1,1 @@
+<img src="/local/templates/main_public/images/svg/icons-shield.svg">

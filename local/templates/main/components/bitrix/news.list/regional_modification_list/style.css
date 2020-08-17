@@ -1,0 +1,63 @@
+.crow {
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.download_block {
+    float: left;
+    width: 10%;
+}
+.cname {
+    float: left;
+    width: 20%;
+}
+.status {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+.do_work {
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+.comment_sp {
+    font-size: 12px;
+}
+
+.content .submit-btn {
+    width: 300px!important;
+}
+
+.content .report_date {
+    width: 200px!important;
+}
+
+@media screen and (max-width: 980px) {
+    .cname { width: 30%; }
+    .status { width: 20%; }
+    .do_work { width: 20%; }
+}
+@media screen and (max-width: 800px) {
+    .cname { width: 35%; }
+}
+@media screen and (max-width: 700px) {
+    .cname { width: 40%; }
+}
+@media screen and (max-width: 600px) {
+    .cname { width: 45%; }
+}
+@media screen and (max-width: 550px) {
+    .cname { width: 55%; }
+}
+@media screen and (max-width: 500px) {
+    .cname { width: 60%; }
+}
+@media screen and (max-width: 430px) {
+    .cname { width: 60%; font-size: 13px;}
+    .status { width: 20%; font-size: 13px;}
+    .do_work { width: 15%; font-size: 13px;}
+
+}

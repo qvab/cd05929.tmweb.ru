@@ -1,0 +1,112 @@
+.client_rating {
+    max-width: 860px;
+    margin-top: 24px;
+}
+.rate_total{
+    font-weight: bold;
+}
+.rate_val {
+     position: relative;
+     top: 4px;
+     margin-left: 10px;
+     font-weight: normal;
+     display: inline-block;
+}
+div.rate_total .rate_val{
+    height:32px;
+    overflow: hidden;
+}
+.client_rating .rate_item {
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1%;
+}
+.client_rating .rate_item .rate_title {
+    font-size: 14px;
+    line-height: 22px;
+    height: 64px;
+}
+.client_rating .rate_item .rate_val,
+.rate_total .rate_val {
+    height: 64px;
+    line-height: 64px;
+    font-size: 28px;
+}
+.client_rating .rate_item .rate_val.grey,
+.rate_total .rate_val.grey {
+    font-size: 48px;
+    color: #999999;
+}
+.client_rating .rate_item .rate_val.green,
+.rate_total .rate_val.green {
+    color: #008000;
+}
+.client_rating .rate_item .rate_val.yellow,
+.rate_total .rate_val.yellow {
+    color: #ffbf00;
+}
+.client_rating .rate_item .rate_val.red,
+.rate_total .rate_val.red {
+    color: #C90000;
+}
+
+@media screen and (max-width: 840px)
+{
+    .client_rating .rate_item {
+        width: 46%;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 32px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .client_rating .rate_item {
+        width: 100%;
+        margin: 0;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-top: 1px solid #ebebeb;
+        border-bottom: none;
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 0;
+    }
+    .client_rating .rate_item.i3 {
+        border-top: 1px solid #ebebeb;
+        margin-bottom: 16px;
+        padding-top: 12px;
+    }
+
+    .rate_total{
+        text-align: center;
+    }
+
+    .client_rating .rate_item .rate_title {
+        line-height: 42px;
+        height: 56px;
+    }
+
+    .client_rating .rate_item .rate_val{
+        height: 46px;
+        line-height: 34px;
+        font-size: 28px;
+        box-sizing: border-box;
+    }
+
+    .rate_total .rate_val{
+        text-align: center;
+        display: block;
+        top: 10px;
+    }
+
+    .rate_total .rate_val .vote-hover{
+        float: none;
+        margin: auto;
+    }
+}

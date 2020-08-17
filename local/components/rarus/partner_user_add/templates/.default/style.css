@@ -1,0 +1,31 @@
+.content .tab_form.reg_form_control_tabs.agent_add_user
+{
+    margin-top: 20px;
+}
+
+.content .tab_form.reg_form_control_tabs.agent_add_user .item
+{
+    border-bottom: none;
+}
+
+.content .tab_form.reg_form_control_tabs.agent_add_user .item span
+{
+    font-size: 14px;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: none;
+    position: relative;
+    top: -5px;
+    vertical-align: top;
+}
+
+.content form.add_form .row .row_val input.inactive
+{
+    display: none;
+}
+
+.content form.add_form .row .row_val input.phone_msk
+{
+    width: 120px;
+}

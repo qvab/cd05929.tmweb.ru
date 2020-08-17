@@ -1,0 +1,43 @@
+.wrap-affairs .btn-show-form-add-new {
+    font-size: 14px;
+    color: #1a64bf;
+    cursor: pointer;
+    width: 150px;
+    padding-top: 15px;
+}
+
+.wrap-affairs .hidden {
+    display: none;
+}
+
+.wrap-affairs .error-msg {
+    color: red;
+    padding-top: 15px;
+}
+
+.wrap-affairs .items-affairs .item .field{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.wrap-affairs .items-affairs .item .field .comment-content {
+    padding-top: 5px;
+}
+
+.wrap-affairs .items-affairs .item {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+.wrap-affairs .items-affairs .show-more {
+    padding-left: 50px;
+    font-size: 14px;
+    color: #1a64bf;
+    cursor: pointer;
+    padding-top: 15px;
+    float: right;
+}
+
+.wrap-affairs .items-affairs .no_affairs {
+    padding-top: 10px;
+}

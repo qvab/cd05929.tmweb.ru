@@ -1,0 +1,191 @@
+.active_stage {
+    background: #fef9db;
+    border: 2px solid #ffde1b !important;
+}
+.closed {
+    background: #DDDDDD;
+}
+.document {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+a.loader_click {
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    height: 56px;
+    border: 3px solid #309cfa;
+    line-height: 52px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+a.loader_click:hover {
+    text-decoration: none;
+}
+.vi-table {
+    font-size: 14px;
+}
+.vi-table .vi-row {
+    padding-bottom: 8px;
+    height: 36px;
+}
+.vi-table .vi-row .vi-cell {
+    float: left;
+    width: 94px;
+    text-align: center;
+}
+.vi-table .vi-row .vi-cell input {
+    width: 80%;
+    border: 1px solid #9b9b9b;
+    padding: 4px;
+    margin: 0 6%;
+    color: #606060;
+    font-size: 14px;
+}
+.list_page_rows.deals .line_area .line_additional .prop_area.i0,
+.list_page_rows.deals .line_area .line_additional .prop_area.i1,
+.list_page_rows.deals .line_area .line_additional .prop_area.i2,
+.list_page_rows.deals .line_area .line_additional .prop_area.i3,
+.list_page_rows.deals .line_area .line_additional .prop_area {
+    padding-left: 90px;
+    position: relative;
+    line-height: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area .sub_step_num {
+    position: absolute;
+    margin-left: -48px;
+    top: 50%;
+    margin-top: -12px;
+}
+.csm_price {
+    margin: 24px 0;
+}
+.csm_price span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.client_rating .rate_item {
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1%;
+}
+.client_rating .rate_item .rate_title {
+    font-size: 14px;
+    line-height: 22px;
+    height: 64px;
+}
+.client_rating .rate_item .rate_val,
+.adress .rate_val {
+    height: 90px;
+    line-height: 64px;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+.adress .rate_val{
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.client_rating .rate_item .rate_val.grey,
+.adress .rate_val.grey {
+    font-size: 48px;
+    color: #999999;
+}
+.client_rating .rate_item .rate_val.green,
+.adress .rate_val.green{
+    color: #008000;
+}
+.client_rating .rate_item .rate_val.yellow,
+.adress .rate_val.yellow {
+    color: #ffbf00;
+}
+.client_rating .rate_item .rate_val.red,
+.adress .rate_val.red {
+    color: #C90000;
+}
+
+.adress.rate_total{
+    margin-bottom: 25px;
+}
+
+.adress.rate_total .rate_val {
+    height:32px;
+    overflow: hidden;
+}
+.adress.rate_total .rate_val div.vote-hover{
+    cursor: default;
+}
+
+.reject_info {
+    margin: 16px 0;
+    color: #C90000;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1048px)
+{
+    .client_rating .rate_item .rate_title {
+        height: 40px;
+    }
+    .client_rating .rate_item .rate_val {
+        height: 48px;
+        line-height: 48px;
+    }
+    .client_rating .rate_item {
+        width: 46%;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .client_rating .rate_item {
+        width: 100%;
+        margin: 0;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-top: 1px solid #ebebeb;
+        border-bottom: none;
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 0;
+    }
+    .client_rating .rate_item.i3 {
+        border-top: 1px solid #ebebeb;
+        margin-bottom: 16px;
+        padding-top: 12px;
+    }
+
+    .rate_total{
+        text-align: center;
+    }
+
+    .adress .rate_val{
+        text-align: center;
+        display: block;
+        top: 10px;
+    }
+
+    .rate_total .rate_val .vote-hover{
+        float: none;
+        margin: auto;
+    }
+}

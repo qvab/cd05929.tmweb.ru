@@ -1,0 +1,91 @@
+.active_stage {
+    background: #fef9db;
+    border: 2px solid #ffde1b !important;
+}
+.closed {
+    background: #DDDDDD;
+}
+.document {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+a.loader_click {
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    height: 56px;
+    border: 3px solid #309cfa;
+    line-height: 52px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+a.loader_click:hover {
+    text-decoration: none;
+}
+.vi-table {
+    font-size: 14px;
+    min-width: 300px;
+}
+.vi-table .vi-row {
+    padding-bottom: 8px;
+    height: 36px;
+}
+.vi-table .vi-row .vi-cell {
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+.vi-table .vi-row .vi-cell input {
+    width: 80%;
+    border: 1px solid #9b9b9b;
+    padding: 4px;
+    margin: 0 6%;
+    color: #606060;
+    font-size: 14px;
+}
+.list_page_rows.deals .line_area .line_additional .prop_area.i0,
+.list_page_rows.deals .line_area .line_additional .prop_area.i1,
+.list_page_rows.deals .line_area .line_additional .prop_area.i2,
+.list_page_rows.deals .line_area .line_additional .prop_area.i3,
+.list_page_rows.deals .line_area .line_additional .prop_area {
+    padding-left: 90px;
+    position: relative;
+    line-height: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area .sub_step_num {
+    position: absolute;
+    margin-left: -48px;
+    top: 50%;
+    margin-top: -12px;
+}
+.vi_table_area
+{
+    overflow: auto;
+}
+
+.reject_info {
+    margin: 16px 0;
+    color: #C90000;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .list_page_rows.deals .line_area .line_additional .prop_area.i0,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i1,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i2,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i3,
+    .list_page_rows.deals .line_area .line_additional .prop_area
+    {
+        padding-left: 70px;
+    }
+}

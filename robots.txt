@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /index.php
+Allow: /
+Disallow: /*/
+Disallow: /upload/
+Disallow: /search/
+Host: https://agrohelper.ru/

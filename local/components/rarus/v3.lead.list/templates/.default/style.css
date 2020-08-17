@@ -1,0 +1,519 @@
+.list_page_rows .line_area .line_inner .name span {
+    font-weight: normal;
+}
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+.content .list_page_rows.pairs_rows_list {
+    margin-top: 25px;
+}
+.list_page_rows.pairs_rows_list.low_margin {
+    margin-top: 0px;
+}
+.rate_val div.vote-hover{
+    cursor: default;
+}
+.select_item
+{
+    padding-top: 20px;
+}
+.success_message
+{
+    color: #27Af27;
+    margin-bottom: 20px;
+}
+.submit-btn.make_offer,
+.submit-btn.copy_clip
+{
+    min-height: 50px;
+    height: auto;
+    white-space: normal;
+}
+
+.content .tab_form.filter_area
+{
+    padding-bottom: 25px;
+}
+
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+a.submit-btn.req_prolongation{
+    margin-bottom: 31px;
+}
+.clear.with_line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    border: 1px solid #ebebeb;
+}
+
+.kp_copy_text{
+    display: none;
+    margin-top: 25px;
+}
+.kp_copy_text.active{
+    display: block;
+}
+
+.content .kp_copy_text textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 150px;
+    display: block;
+}
+
+.agent_counter_href_success_text
+{
+    position: relative;
+    top: 14px;
+}
+
+.content input[type="text"].counter_volume_input
+{
+    font-size: 14px;
+    height: 45px;
+    margin: 0 0 0 20px;
+    padding: 8px;
+    text-align: center;
+    width: 70px;
+    box-sizing: border-box;
+    border-left: none;
+    float: left;
+}
+
+.content .kp_copy_text .success_copy,
+.content .prop_area.adress_val .success_copy{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    float: left;
+    background: url(/local/templates/main_public/images/check_mark_white.png) center center no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+    margin-left: 25px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+.content .kp_copy_text .success_copy.disable,
+.content .prop_area.adress_val .success_copy.disable{
+    opacity: 0;
+}
+
+select[name="select_farmer"]
+{
+    width: 300px;
+}
+
+.fbtn_submit input
+{
+    width: 100%;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress.make_k_offer_area
+{
+    padding-left: 0;
+}
+
+.make_k_offer_area .make_k_offer
+{
+    font-size: 14px;
+    color: #1a64bf;
+    cursor: pointer;
+    width: 150px;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited
+{
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+.cancel_filter:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+.fblock_cl,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.fblock_fm,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.content form .fblock_cl select,
+.content form .fblock_fm select {
+    width: 300px;
+}
+
+.client_rating .rate_item {
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 1%;
+}
+.client_rating .rate_item .rate_title {
+    font-size: 14px;
+    line-height: 22px;
+    height: 64px;
+}
+.client_rating .rate_item .rate_val,
+.adress .rate_val {
+    height: 90px;
+    line-height: 64px;
+    font-size: 28px;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+    font-weight: normal;
+    display: inline-block;
+}
+.client_rating .rate_item .rate_val.grey,
+.adress .rate_val.grey {
+    font-size: 48px;
+    color: #999999;
+}
+.client_rating .rate_item .rate_val.green,
+.adress .rate_val.green {
+    color: #008000;
+}
+.client_rating .rate_item .rate_val.yellow,
+.adress .rate_val.yellow {
+    color: #ffbf00;
+}
+.client_rating .rate_item .rate_val.red,
+.adress .rate_val.red {
+    color: #C90000;
+}
+
+.content .line_additional .kp_copy_text .empty_but.update_text,
+.content .line_additional .kp_copy_text .empty_but.copy_clip,
+.content .line_additional .kp_copy_text .submit-btn.copy_clip
+{
+    width: 320px;
+    display: inline-block;
+}
+
+.content .empty-block {
+    height: 20px;
+}
+.answered:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/local/templates/main/images/svg/undo2.svg) center center no-repeat;
+    background-size: contain;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 5px;
+}
+
+.agent_counter_href_value
+{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-left: 10px solid #475663;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    margin: 20px 0;
+    word-break: break-all;
+}
+
+.submit-btn.make_by_agent_counter_href,
+.submit-btn.copy_clip.agent_href_copy
+{
+    min-height: inherit;
+    height: auto;
+    line-height: 18px;
+    text-align: center;
+}
+
+.submit-btn.make_by_agent_counter_href
+{
+    float: left;
+}
+
+.list_page_rows .line_area .line_inner .cp_accept
+{
+    padding: 20px 60px 0px 0!important
+}
+
+.list_page_rows .line_area .line_inner .cp_accept .submit-btn
+ {
+     min-width: 90px;
+     display: inline-block;
+     width: 160px;
+     height: 60px;
+     line-height: 14px;
+     float: right;
+ }
+
+.list_page_rows .line_area .line_inner .cp_accept .submit-btn.agent
+{
+    min-width: 90px;
+    padding-top: 25px;
+    display: inline-block;
+    width: 160px;
+    height: 80px;
+    line-height: 14px;
+    float: right;
+}
+
+.ton_pos {
+    position: absolute;
+    top: 18px;
+    left: 450px;
+    display: inline-block;
+}
+
+.content form .vol.row {
+    margin-top: 0px!important;
+}
+
+.prop_area_n_border {
+    border-bottom: none!important;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .list_page_rows .line_area .line_inner .cp_accept .submit-btn,
+    .list_page_rows .line_area .line_inner .cp_accept .submit-btn.agent
+    {
+        height: 50px;
+        padding-top: 12px;
+        width: 120px;
+        float: right;
+    }
+
+    .content .line_additional .kp_copy_text .empty_but.update_text,
+    .content .line_additional .kp_copy_text .empty_but.copy_clip,
+    .content .line_additional .kp_copy_text .submit-btn.copy_clip
+    {
+        width: 320px;
+        display: block;
+    }
+
+    .content .line_additional .kp_copy_text .empty_but.update_text
+    {
+        margin-top: 10px;
+    }
+
+    .answered:before {
+        margin-left: 5px;
+    }
+
+    .list_page_rows.farmer_requests_list.requests .line_area .line_inner .name,
+    .list_page_rows.farmer_requests_list .line_area .line_inner .name
+    {
+        padding-left: 25px;
+    }
+
+    .list_page_rows.farmer_requests_list .line_area .line_inner .wh_name,
+    .list_page_rows.farmer_requests_list .line_area .line_inner .farmer_name
+    {
+        padding-left: 25px;
+    }
+    .ton_pos {
+        left: 435px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 840px)
+{
+    .client_rating .rate_item {
+        width: 46%;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 32px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 530px)
+{
+    .content .kp_copy_text textarea
+    {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .list_page_rows .line_area .line_inner .cp_accept
+    {
+        padding: 0px 60px 0px 0!important;
+        float: right;
+    }
+    .list_page_rows .line_area .line_inner .cp_accept .submit-btn {
+        font-size: 12px;
+    }
+
+    .list_page_rows .line_area .line_inner .wh_name {
+        margin-top: 20px!important;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    /*.content .kp_copy_text .success_copy
+    {
+        width: 18px;
+        margin-top: 11px;
+        margin-left: 0;
+        left: 25px;
+    }*/
+
+    .content .line_additional .kp_copy_text .empty_but.update_text,
+    .content .line_additional .kp_copy_text .empty_but.copy_clip,
+    .content .line_additional .kp_copy_text .submit-btn.copy_clip
+    {
+        width: 280px;
+    }
+    .content .line_additional .kp_copy_text .empty_but.update_text
+    {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .client_rating .rate_item {
+        width: 100%;
+        margin: 0;
+    }
+    .client_rating .rate_item.i1,
+    .client_rating .rate_item.i2 {
+        border-top: 1px solid #ebebeb;
+        border-bottom: none;
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 0;
+    }
+    .client_rating .rate_item.i3 {
+        border-top: 1px solid #ebebeb;
+        margin-bottom: 16px;
+        padding-top: 12px;
+    }
+
+    .rate_total{
+        text-align: center;
+    }
+
+    .client_rating .rate_item .rate_title {
+        line-height: 42px;
+        height: 56px;
+    }
+
+    .client_rating .rate_item .rate_val{
+        height: 46px;
+        line-height: 34px;
+        font-size: 28px;
+        box-sizing: border-box;
+    }
+
+    .adress .rate_val{
+        text-align: center;
+        display: block;
+        top: 10px;
+    }
+
+    .rate_total .rate_val .vote-hover{
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    select[name="select_farmer"],
+    .content form .fblock_cl select,
+    .content form .fblock_fm select
+    {
+        width: 280px;
+    }
+
+    .fbtn_submit,
+    .fbtn_cancel{
+        width: 280px;
+    }
+
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        width: 280px;
+    }
+
+    .content .line_additional .kp_copy_text .empty_but.update_text,
+    .content .line_additional .kp_copy_text .empty_but.copy_clip,
+    .content .line_additional .kp_copy_text .submit-btn.copy_clip
+    {
+        width: 260px;
+    }
+
+    /*.content .kp_copy_text .success_copy
+    {
+        margin-top: 11px;
+        margin-left: -3px;
+    }*/
+}

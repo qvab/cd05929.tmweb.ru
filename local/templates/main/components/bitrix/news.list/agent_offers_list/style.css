@@ -1,0 +1,1020 @@
+.list_page_rows .line_area.yes .line_inner,
+.list_page_rows .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows .line_area.no .line_inner,
+.list_page_rows .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+.req_total .hidden,
+.for_requests .hidden {
+    display: none;
+}
+
+.content .radio_group.quality_approved_padding
+{
+    padding-top: 20px;
+    padding-left: 48px;
+}
+
+.content .radio_group.quality_approved_padding .radio_area
+{
+    margin-bottom: 0;
+}
+
+.content .radio_group.quality_approved_padding .radio_area .custom_input.disabled
+{
+    opacity: 0.5;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.counter_offer_area .success_message
+{
+    color: #559955;
+    margin-bottom: 16px;
+}
+
+.content .radio_group.quality_approved_padding .date_area
+{
+    padding-bottom: 15px;
+}
+
+.content .radio_group.quality_approved_padding .date_area .date_val
+{
+    margin-left: 5px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+{
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 21px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+.list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress.r_align
+{
+    text-align: right;
+}
+
+.req_total .hide-more-request,
+.req_total .show-more-requests,
+.for_requests .hide-more-request,
+.for_requests .show-more-requests {
+    margin-left: 50px;
+    font-size: 14px;
+    color: #478bb7;
+    cursor: pointer;
+    padding-top: 15px;
+    display: inline-block;
+    border-bottom: 1px dashed;
+}
+.flex-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-row .min_max_val{
+    margin-left: 30px;
+    top: -5px;
+}
+.rowed {
+    text-align: left;
+    width: 204px;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active,
+.highcharts-container,
+.highcharts-container svg
+{
+    overflow: visible !important;
+}
+
+.list_page_rows .line_area .line_additional .prop_area .copy-textallowed
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.req_total .hide-more-request,
+.for_requests .hide-more-request{
+    display: none;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+.deal_link {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 200px;
+}
+.deal_volume {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 100px;
+    text-align: right;
+}
+.deal_status {
+    display: inline-block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area
+{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active
+{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area .empty_graph{
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 0 15px;
+    line-height: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.additional_href_data
+{
+    display: none;
+}
+.additional_href_data.active
+{
+    display: block;
+}
+
+.content a.add_blue_button:link,
+.content a.add_blue_button:active,
+.content a.add_blue_button:visited,
+.content a.add_blue_button:hover
+{
+    display: none;
+}
+.content a.add_blue_button.active:link,
+.content a.add_blue_button.active:active,
+.content a.add_blue_button.active:visited,
+.content a.add_blue_button.active:hover
+{
+    display: block;
+}
+
+.add_limit_end
+{
+    display: none;
+    margin-top: 30px;
+}
+
+.add_limit_end.active
+{
+    display: block;
+}
+
+
+.select_item
+{
+    display: block;
+    margin-top: 20px;
+}
+
+.fblock_cl,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.fblock_fm,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.content form.select_item select
+{
+    width: 100%;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited
+{
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+.cancel_filter:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+{
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    border-bottom: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab.active
+{
+    opacity: 1;
+    background: #FFF;
+    cursor: default;
+    border-color: #FFF;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph .graph_draw{
+    background: #FFF;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.error_msg
+{
+    position: absolute;
+    top: -25px;
+    color: #f53548;
+}
+
+.answered:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/local/templates/main/images/svg/undo2.svg) center center no-repeat;
+    background-size: contain;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 5px;
+}
+
+.for_requests .adress
+{
+    /*color: #1a64bf;
+    cursor: pointer;*/
+}
+
+.for_requests .adress:hover
+{
+    text-decoration: none;
+}
+
+.for_requests .deal_link
+{
+    display: block;
+    float: left;
+    margin-right: 0;
+}
+
+.for_requests .deal_link a:link,
+.for_requests .deal_link a:active,
+.for_requests .deal_link a:visited,
+.for_requests .deal_link a:hover
+{
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+.for_requests .deal_volume
+{
+    width: 75px;
+    min-width: 75px;
+    margin-left: 15px;
+    margin-right: 0;
+    float: left;
+}
+
+.for_requests .road_len
+{
+    width: 95px;
+    margin-left: 15px;
+    float: left;
+}
+
+/*counter_reques*/
+.ton_pos {
+    position: absolute;
+    top: 18px;
+    left: 450px;
+    display: inline-block;
+}
+.ton_pos.rub {
+    font-size: 12px;
+}
+.content .min_max_val input[type="text"]
+{
+    border-left: none;
+    padding: 8px;
+    float: left;
+    width: 70px;
+    margin-left: 15px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.content .counter_request_additional_data input.submit-btn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    white-space: normal;
+    margin-top: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price,
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+    float: left;
+    padding-top: 24px;
+}
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price span,
+.content .counter_request_additional_data .min_max_val .max_price span
+{
+    display: block;
+    text-align: center;
+}
+.content .counter_request_additional_data .min_max_val .minus.minus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .min_max_val .plus.plus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .success_message
+{
+    color: #559955;
+}
+
+.content .counter_request_additional_data .additional_options .minus.minus_bg
+{
+    cursor: pointer;
+    position: absolute;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 185px;
+    margin-top: 20px;
+    display: none;
+}
+.content .counter_request_additional_data .additional_options .plus.plus_bg
+{
+    cursor: pointer;
+    position: absolute;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 315px;
+    margin-top: 20px;
+    display: none;
+}
+
+.content .counter_request_additional_data .additional_options .partner_price_part
+{
+    display: none;
+}
+.content .counter_request_additional_data .additional_options .partner_price_part.active
+{
+    display: block;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 32px;
+}
+
+.content form .counter_request_additional_data .row .row_val .error_msg.active
+{
+    top: -17px;
+}
+.content form .counter_request_additional_data .adress_val .error_msg.active.partner_service_price_error
+{
+    position: relative;
+    top: 0;
+    margin-bottom: 5px;
+}
+
+.content .adress.partner_price
+{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.content .adress.partner_price input[type="text"]
+{
+    width: 80px;
+    height: 60px;
+    box-sizing: border-box;
+    border-left: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress.slide-description
+{
+    padding-left: 0;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress .radio_group
+{
+    position: relative;
+}
+
+.slide-description .price_value
+{
+    position: absolute;
+    top: 0;
+    left: 220px;
+    white-space: nowrap;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.additional_label
+{
+    max-width: 250px;
+}
+/*end counter_reques*/
+
+.offer_pop.submit-btn {
+    width: 200px;
+}
+.offer_pop.submit-btn.b_left{
+    float: left;
+}
+.offer_pop.submit-btn.b_right{
+    float: right;
+}
+
+#def_popup_window.gr_offer.link_text_w
+{
+    margin-left: -300px;
+    width: 450px;
+}
+
+.gr_offer .agent_counter_href_value
+{
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+a.offer_graph_send:link,
+a.offer_graph_send:active,
+a.offer_graph_send:visited,
+a.offer_graph_send:hover
+{
+    display: block;
+    position: absolute;
+    margin-top: -15px;
+    right: 30px;
+}
+
+.cancel_counter_offer_area
+{
+    margin-top: 10px;
+}
+
+.cancel_counter_offer_area a.submit-btn
+{
+    float: none;
+    bottom: 0;
+}
+
+.avail_status
+{
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 150px;
+    padding: 20px 10px 20px 30px;
+    color: #7ed321;
+}
+.avail_status.no
+{
+    color: #D0021B;
+}
+
+.list_page_rows .line_area .line_inner .avail_status
+{
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 94px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress .avail_date
+{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    /*counter_reques*/
+    .ton_pos {
+        left: 435px;
+        top: 10px;
+    }
+
+    .content .min_max_val input[type="text"],
+    .content .adress.partner_price input[type="text"]
+    {
+        height: 40px;
+    }
+
+    .content .counter_request_additional_data .additional_options .partner_price_part.active
+    {
+        margin-top: 22px;
+    }
+
+    .content .counter_request_additional_data .additional_options .minus.minus_bg,
+    .content .counter_request_additional_data .additional_options .plus.plus_bg
+    {
+        margin-top: 10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg,
+    .content .counter_request_additional_data .min_max_val .plus.plus_bg {
+        top: 10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .min_price,
+    .content .counter_request_additional_data .min_max_val .max_price {
+        padding-top: 10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .max_price
+    {
+        margin-left: 5px;
+    }
+
+    .content .counter_request_additional_data input.submit-btn {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+    /*end counter_reques*/
+
+    .answered:before {
+        margin-left: 5px;
+    }
+
+    .list_page_rows.farmer_offer.requests .line_area .line_inner .name,
+    .list_page_rows.farmer_offer .line_area .line_inner .name
+    {
+        padding-left: 25px;
+    }
+
+    .list_page_rows.farmer_offer .line_area .line_inner .warhouse_name
+    {
+        padding-left: 25px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg
+    {
+        margin-left: 10px;
+    }
+
+    .flex-row .min_max_val{
+        top: 0;
+    }
+
+    .avail_status
+    {
+        margin-left: 26px;
+    }
+
+    .list_page_rows .line_area .line_inner .avail_status
+    {
+        padding: 15px 10px;
+    }
+}
+
+@media screen and (max-width: 840px)
+{
+    .additional_href_data
+    {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    .for_requests .deal_link a:link,
+    .for_requests .deal_link a:active,
+    .for_requests .deal_link a:visited,
+    .for_requests .deal_link a:hover
+    {
+        width: 150px;
+    }
+    .r_price_block {
+        width: 100% !important;
+    }
+    .flex-row {
+        justify-content: space-between;
+    }
+    .flex-row .min_max_val {
+        margin-left: auto;
+        width: 272px;
+    }
+
+    .rowed
+    {
+        width: 170px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn
+    {
+        margin-right: 15px;
+    }
+    /*end counter_reques*/
+
+    .deal_volume
+    {
+        min-width: 45px;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val .basis_price_table.basis_price_table
+    {
+        margin-right: 0;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .list_page_rows .line_area .line_inner .avail_status
+    {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    .content .adress.partner_price input[type="text"]
+    {
+        margin-left: 0;
+        position: relative;
+        left: 5px;
+    }
+
+    .content .counter_request_additional_data .additional_options .minus.minus_bg
+    {
+        margin-left: 20px;
+    }
+    .content .counter_request_additional_data .additional_options .plus.plus_bg
+    {
+        margin-left: 150px;
+    }
+    .content .counter_request_additional_data .additional_options .minus.minus_bg,
+    .content .counter_request_additional_data .additional_options .plus.plus_bg
+    {
+        margin-top: 40px;
+    }
+
+    .content .counter_request_additional_data .additional_options .partner_price_part.active
+    {
+        margin-left: 172px;
+        margin-top: 55px;
+        width: 80px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    #def_popup_window.gr_offer.link_text_w
+    {
+        margin-left: 0;
+        left: 10px;
+        right: 10px;
+        width: auto !important;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg,
+    .content .counter_request_additional_data .min_max_val .plus.plus_bg
+    {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn,
+    .content .with_graph .r_align input.submit-btn{
+        width: 230px;
+    }
+
+    .ton_pos {
+        left: 310px;
+    }
+    /*end counter_reques*/
+
+    .ton_pos
+    {
+        left: 310px;
+    }
+
+    .deal_volume
+    {
+        margin-right: 0;
+    }
+
+    .for_requests .deal_volume
+    {
+        display: none;
+    }
+    .flex-row {
+        flex-flow: column;
+        align-items: baseline;
+    }
+    .flex-row .min_max_val {
+        margin-right: auto;
+        margin-bottom: 15px;
+        height: 42px;
+    }
+    .rowed {
+        width: auto;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+
+    #def_popup_window.gr_offer.link_text_w .submit-btn
+    {
+        width: 150px;
+    }
+
+    .counter_request_additional_data .flex-row
+    {
+        display: block;
+    }
+
+    div.pr_val_rec
+    {
+        display: inline-block;
+        float: none;
+    }
+
+    .list_page_rows .line_area .line_inner .avail_status
+    {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    div.list_page_rows.farmer_offer .line_area .line_inner .warhouse_name.farmer_name
+    {
+        padding-top: 40px
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    a.offer_graph_send:link,
+    a.offer_graph_send:active,
+    a.offer_graph_send:visited,
+    a.offer_graph_send:hover
+    {
+        display: inline-block;
+        position: relative;
+        margin-top: 15px;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 410px)
+{
+    .list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+    {
+        width: 80px;
+    }
+
+    /*counter_reques*/
+    .counter_request_additional_data input[name="volume"][type="text"] {
+        width: 210px;
+    }
+    /*end counter_reques*/
+
+    .slide-description .price_value
+    {
+        left: 195px;
+    }
+}
+
+@media screen and (max-width: 390px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data .row_val.min_max_val
+    {
+       /* margin-left: -25px;
+        margin-right: -25px;*/
+    }
+    /*end counter_reques*/
+}
+
+@media screen and (max-width: 380px)
+{
+    /*counter_reques*/
+    .ton_pos {
+        display: none;
+    }
+    /*end counter_reques*/
+    .for_requests .road_len
+    {
+        margin-right: -15px;
+    }
+
+    #def_popup_window.gr_offer.link_text_w
+    {
+        left: 5px;
+        right: 5px;
+    }
+
+    #def_popup_window.gr_offer.link_text_w .submit-btn.b_left
+    {
+        width: 145px;
+    }
+    #def_popup_window.gr_offer.link_text_w .submit-btn.b_right
+    {
+        width: 115px;
+    }
+}
+
+
+@media screen and (max-width: 350px)
+{
+    select[name="select_farmer"],
+    .content form .fblock_cl select,
+    .content form .fblock_fm select
+    {
+        width: 280px;
+    }
+
+    .fbtn_submit,
+    .fbtn_cancel{
+        width: 280px;
+    }
+    .content .counter_request_additional_data .min_max_val .min_price
+    {
+        margin-left: 0;
+    }
+
+    .content .counter_request_additional_data .min_max_val .max_price {
+        margin-left: 5px;
+    }
+    .content .min_max_val input[type="text"]{
+        margin-left: 5px;
+    }
+}
+.agent_counter_href_value
+{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-left: 10px solid #475663;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    margin: 20px 0;
+    word-break: break-all;
+}
+
+.submit-btn.make_by_agent_counter_href,
+.submit-btn.copy_clip.agent_href_copy
+{
+    min-height: inherit;
+    height: auto;
+    line-height: 18px;
+    text-align: center;
+}
+
+.submit-btn.make_by_agent_counter_href
+{
+    float: left;
+}
+
+.agent_counter_href_success_text
+{
+    position: relative;
+    top: 14px;
+}
+
+.content input[type="text"].counter_volume_input
+{
+    font-size: 14px;
+    height: 45px;
+    margin: 0 0 0 20px;
+    padding: 8px;
+    text-align: center;
+    width: 70px;
+    box-sizing: border-box;
+    border-left: none;
+    float: left;
+}
+.copy-left {
+    font-size: 14px;
+    color: #1a64bf;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+}
+.toggle-header {
+    color: #478bb7;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+    display: inline-block;
+}

@@ -1,0 +1,127 @@
+.clear {
+    clear: both;
+}
+.clear.l
+{
+    clear: left;
+}
+.clear:after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.step-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.quality-param-block {
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.quality-param-title {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+/*
+.quality-param-intro select {
+    margin: 0 24px;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px;
+    width: 374px;
+}*/
+.quality-dump-intro {
+    display: none;
+    margin-top: 15px;
+}
+.quality-dump-intro.active {
+    display: block;
+}
+.input-item {
+    margin-bottom: 16px;
+}
+.input-item input {
+    font-size: 16px;
+    height: 20px;
+    margin: 0 24px;
+    padding: 8px;
+    width: 300px;
+}
+.input-item label {
+    font-size: 17px;
+}
+.urgency {
+    margin: 32px 24px;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+.urgency label,
+.request-block-intro label {
+    font-size: 17px;
+    margin-right: 24px;
+}
+
+.cost-item {
+    margin-bottom: 40px;
+}
+.cost-item input {
+    width: 20px;
+    height: 20px;
+}
+.cost-item .price {
+    color: #1c65c0;
+    font-size: 24px;
+    margin: 0 50px;
+}
+.cost-item .name {
+    margin: 0 50px;
+    min-width: 200px;
+    font-size: 24px;
+    display: inline-block;
+}
+.cost-item .address {
+    font-size: 17px;
+    font-weight: normal;
+    color: #737373;
+    max-width: 300px;
+    display: inline-block;
+}
+.agree-item input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+.input-item select {
+    margin: 0 24px;
+    height: 44px;
+    font-size: 16px;
+    padding: 8px;
+    min-width: 320px;
+}
+.remoteness, .percent, .delay {
+    display: none;
+}
+.remoteness.active, .percent.active, .delay.active {
+    display: block;
+}
+.user_info {
+    margin-top: 24px;
+}
+.c_icon {
+    background: url(/local/templates/main_public/images/c_icon.png) no-repeat;
+    padding-left: 32px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.f_icon {
+    background: url(/local/templates/main_public/images/f_icon.png) no-repeat;
+    padding-left: 32px;
+    line-height: 26px;
+}
+
+.grecaptcha-badge {
+    height: 0 !important;
+}

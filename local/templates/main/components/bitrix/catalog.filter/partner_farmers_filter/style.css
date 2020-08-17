@@ -1,0 +1,36 @@
+form.farmer_select .wrap-select,
+form.farmer_select .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+form.farmer_select .wrap-select select,
+form.farmer_select .wrap-btn input {
+    width: 300px;
+}
+
+.select2
+{
+    width: 300px !important;
+}
+
+@media screen and (max-width: 699px)
+{
+    form.farmer_select .wrap-select,
+    form.farmer_select .wrap-btn {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    form.farmer_select .wrap-btn input
+    {
+        width: 280px;
+    }
+
+    .select2
+    {
+        width: 280px !important;
+    }
+}

@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Новые",
+        "/farmer/center/?read=0",
+        Array(),
+        Array('READ'=>'N'),
+        ""
+    ),
+    Array(
+        "Прочитанные",
+        "/farmer/center/?read=1",
+        Array(),
+        Array('READ'=>'Y'),
+        ""
+    ),
+    Array(
+        "Настройки",
+        "/farmer/center/settings/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

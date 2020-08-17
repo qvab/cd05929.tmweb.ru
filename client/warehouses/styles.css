@@ -1,0 +1,10 @@
+.content form .row.double_region.inactive
+{
+    display: none;
+}
+
+.content form .row.double_region .row_label
+{
+    line-height: 20px;
+    margin-bottom: 5px;
+}

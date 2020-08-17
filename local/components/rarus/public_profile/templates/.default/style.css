@@ -1,0 +1,14 @@
+.user_profile_area .block-btn .wrap-btn {
+    float: left;
+    width: 400px;
+}
+
+.user_profile_area .row .row_head.green_text
+{
+    color: #559955;
+}
+
+.user_profile_area .row .row_val div.public_partner_block textarea
+{
+    height: 80px;
+}

@@ -1,0 +1,27 @@
+.list_page_rows.deals .line_area.current .line_inner {
+    padding-left: 0;
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.mark .line_area .line_inner .step_num {
+    float: left;
+    padding: 20px 36px;
+    font-size: 22px;
+    line-height: 24px;
+    box-sizing: border-box;
+    color: #a6a6a6;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+}
+.list_page_rows.deals.mark .line_area .line_inner .name {
+    padding-left: 10px;
+    font-weight: normal;
+    float: none;
+    margin-left: 90px;
+}
+.list_page_rows.deals.mark .line_area .line_additional .prop_area {
+    font-size: 14px;
+    padding-left: 35px;
+    line-height: 24px;
+}

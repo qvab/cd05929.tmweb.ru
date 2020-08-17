@@ -1,0 +1,13 @@
+.list_page_rows.warehouses .line_area.yes .line_inner,
+.list_page_rows.warehouses .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows.warehouses .line_area.no .line_inner,
+.list_page_rows.warehouses .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+.list_page_rows.warehouses .line_area .line_inner .name {
+    padding-left: 20px !important;
+}

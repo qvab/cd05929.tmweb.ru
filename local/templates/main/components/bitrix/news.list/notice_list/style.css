@@ -1,0 +1,103 @@
+.list_page_rows.requests .line_area.open .line_inner,
+.list_page_rows.requests .line_area.open .line_inner:hover {
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.requests .line_area.cancel .line_inner,
+.list_page_rows.requests .line_area.cancel .line_inner:hover {
+    border-left: 10px solid #2b323d;
+}
+.arw_icon {
+    background: url(/local/templates/main/images/select_arw_right.png) center center no-repeat;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 24px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.list_page_rows.requests.notifications .line_area .line_inner .name {
+    width: 370px;
+}
+
+.list_page_rows.notifications .line_area .line_inner .accept
+{
+    float: right;
+    padding: 20px 60px 20px 0;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+
+.list_page_rows.notifications .line_area .line_inner .accept .submit-btn
+{
+    width: 140px;
+    height: 60px;
+}
+
+.agent_counter_href_value {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-left: 10px solid #475663;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    margin: 20px 0;
+    word-break: break-all;
+}
+
+.agent_counter_href_success_text {
+    position: relative;
+    top: 14px;
+}
+
+@media screen and (max-width: 880px) {
+    .list_page_rows.requests.notifications .line_area .line_inner .name {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .list_page_rows.requests.notifications .line_area .line_inner .name {
+        width: 230px;
+    }
+    .list_page_rows.requests.notifications .line_area .line_inner .tons {
+        padding-right: 5px;
+        float: left;
+        width: 80px;
+    }
+    .list_page_rows.notifications .line_area .line_inner .accept .submit-btn {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .list_page_rows.requests.notifications .line_area .line_inner .name {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .list_page_rows.requests.notifications .line_area .line_inner .name {
+        width: 160px;
+    }
+    .list_page_rows.notifications .line_area .line_inner .accept {
+        padding: 5px 30px 5px 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .list_page_rows.requests.notifications .line_area .line_inner .name {
+        width: 150px;
+    }
+    .list_page_rows.requests.notifications .line_area .line_inner .tons {
+        padding-right: 0px;
+        float: left;
+        width: 70px;
+    }
+    .list_page_rows.requests.notifications .line_area .line_inner .price {
+        width: 70px;
+    }
+    .list_page_rows.notifications .line_area .line_inner .accept .submit-btn {
+        width: 100px;
+    }
+}

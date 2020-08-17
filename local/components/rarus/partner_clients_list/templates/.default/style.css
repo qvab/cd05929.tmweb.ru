@@ -1,0 +1,72 @@
+.line_area.is_linked .additional_submits.for_unlinked,
+.line_area.not_linked .additional_submits.for_linked
+{
+    display: none;
+}
+
+.line_area.is_linked .additional_submits .agent_contract_date_label
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .line_area.is_linked .additional_submits.contract_prop input[type="text"]
+{
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.line_area.is_linked .additional_submits.contract_prop .radio_group
+{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.contract_prop.get_file .date_line
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.line_area.is_linked .additional_submits.contract_prop .submit-btn
+{
+    margin-top: 20px;
+}
+
+.line_area .agent_contract_sign
+{
+    color: #559955;
+    position: absolute;
+    right: 60px;
+    display: none;
+    top: 50%;
+    margin-top: -16px;
+}
+.line_area.is_linked .agent_contract_sign.active
+{
+    display: block;
+    text-align: center;
+}
+
+.line_area.is_linked .additional_submits.contract_prop .error_message
+{
+    margin-bottom: 15px;
+    color: #f53548;
+    display: none;
+}
+.line_area.is_linked .additional_submits.contract_prop .error_message.active,
+.line_area.is_linked .additional_submits.contract_prop .error_message.spec
+{
+    display: block;
+}
+
+.line_area.is_linked .additional_submits.contract_prop .result_message
+{
+    margin-bottom: 15px;
+    color: #559955;
+    display: none;
+}
+.line_area.is_linked .additional_submits.contract_prop .result_message.active
+{
+    display: block;
+}

@@ -1,0 +1,10 @@
+#client_requests_filter .wrap-select,
+#client_requests_filter .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+#client_requests_filter .wrap-select select,
+#client_requests_filter .wrap-btn input {
+    width: 300px;
+}

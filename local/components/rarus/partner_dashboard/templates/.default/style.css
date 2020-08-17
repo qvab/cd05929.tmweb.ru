@@ -1,0 +1,181 @@
+.prop_area.adress_val.dashboard_data table{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.prop_area.adress_val.dashboard_data table tr.legend{
+    border-bottom: 1px solid #000;
+}
+
+.prop_area.adress_val.dashboard_data table th{
+    padding: 7px 5px;
+    text-align: center;
+}
+
+.prop_area.adress_val.dashboard_data table tr.label_line td{
+    font-weight: bold;
+}
+
+.prop_area.adress_val.dashboard_data table td{
+    padding: 7px 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.prop_area.adress_val.dashboard_data table td a:link,
+.prop_area.adress_val.dashboard_data table td a:active,
+.prop_area.adress_val.dashboard_data table td a:visited,
+.prop_area.adress_val.dashboard_data table td a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.prop_area.adress_val.dashboard_data table td .green_value{
+    color: #008000;
+}
+.prop_area.adress_val.dashboard_data table td .yellow_value{
+    color: #ffbf00;
+}
+.prop_area.adress_val.dashboard_data table td .gray_value{
+    color: #999;
+}
+
+.prop_area.adress_val.dashboard_data table td .dash_line{
+    height: 1px;
+    background: #c3c2c3;
+    position: relative;
+}
+
+.prop_area.adress_val.dashboard_data table th.label,
+.prop_area.adress_val.dashboard_data table td.label
+{
+    width: 200px;
+    text-align: left;
+}
+
+.prop_area.adress_val.dashboard_data table td.label_inner{
+    width: 200px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.content .agents_list
+{
+    margin-top: 80px;
+}
+
+form[name="agent_select"]{
+    padding-bottom: 60px;
+}
+
+.fblock_fm,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.fblock_cl,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.list_page_rows.agents_list
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited {
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+.cancel_filter:hover {
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .prop_area.adress_val.dashboard_data table th,
+    .prop_area.adress_val.dashboard_data table td{
+        padding: 4px 5px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .content .agents_list
+    {
+        margin-top: 25px;
+    }
+
+    form[name="agent_select"]{
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    .prop_area.adress_val.dashboard_data table{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .fbtn_submit,
+    .fbtn_cancel{
+        width: 280px;
+    }
+
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover {
+        width: 100%;
+    }
+
+    .prop_area.adress_val.dashboard_data table th, .prop_area.adress_val.dashboard_data table td{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .prop_area.adress_val.dashboard_data table td.label_inner{
+        padding-left: 20px;
+    }
+}

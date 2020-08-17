@@ -1,0 +1,27 @@
+.w_form .w_300 {
+    width: 300px;
+}
+
+.w_form .w_400 {
+    width: 400px;
+}
+
+.w_form td {
+    padding: 5px;
+}
+
+.button_block {
+    width: 100%;
+    text-align: right;
+}
+.map {
+    position: relative;
+}
+.content form .row.map.error .row_err {
+    left: 620px;
+    width: 150px;
+}
+
+.form_block.map {
+    max-width: 600px;
+}

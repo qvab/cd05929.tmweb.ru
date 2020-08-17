@@ -1,0 +1,329 @@
+.reg_form_control_tabs
+{
+	height: 30px;
+}
+
+.reg_form_control_tabs .form_control_tab
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.reg_form
+{
+	display: none;
+}
+.reg_form.active
+{
+	display: block;
+}
+
+.reg_form .row
+{
+	margin-bottom: 15px;
+	clear: left;
+}
+
+.reg_form .row .needItem
+{
+	float: left;
+	color: #c10000;
+	width: 10px;
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+}
+
+.row.phone_sms .holder.row_val input[type="text"],
+.row.phone_sms .sms_confirmation .row_val input[type="text"]
+{
+    width: 128px;
+    float: left;
+}
+.row.phone_sms.check_success .holder.row_val input[type="text"]{
+    opacity: 0.6;
+    cursor: default;
+}
+.row.phone_sms .send_button{
+    float: left;
+    background: transparent;
+    border: 4px solid #45a1ef;
+    font-size: 14px;
+    padding: 14px;
+    cursor: pointer;
+    color: #505050;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin-left: 20px;
+    font-weight: bold;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.row.phone_sms .send_button.repeat_send{
+    padding: 6px 14px;
+}
+.row.phone_sms.check_success .send_button{
+    display: none;
+}
+
+.row.phone_sms .success_ico{
+    width: 50px;
+    height: 35px;
+    float: left;
+    margin-left: 25px;
+    background: url(/local/templates/main_public/images/check_mark.png) center center no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 5px;
+    display: none;
+}
+.row.phone_sms.check_success .success_ico{
+    display: block;
+}
+
+.row.phone_sms .sms_confirmation{
+    position: relative;
+    margin-top: 10px;
+    display: none;
+}
+.row.phone_sms .sms_confirmation.active{
+    display: block;
+}
+.row.phone_sms.check_success .sms_confirmation,
+.row.phone_sms.check_success .sms_confirmation.active{
+    display: none;
+}
+
+.row.phone_sms .sms_confirmation .row_val .submit_sms_button{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    background: #47a1f0;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.reg_form .row .holder,
+.public_form .fields .field
+{
+	margin-left: 10px;
+}
+
+.auth-form .submit-btn
+{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.reg_form .row .holder input.disabled[type="text"],
+.reg_form .row .holder input.disabled[type="text"]::placeholder,
+.reg_form .row .holder input.disabled[type="text"]::-ms-input-placeholder
+{
+    opacity: 0.7;
+}
+
+.reg_form .row .holder textarea
+{
+    width: 435px;
+    max-width: 435px;
+    min-width: 270px;
+    min-height: 80px;
+    max-height: 550px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 0;
+    border-left: 10px solid #475663;
+}
+.reg_form .row .holder textarea:hover
+{
+    border-left: 10px solid #475663;
+    border-left-color: #5588b3;
+}
+.reg_form .row .holder textarea.disabled,
+.reg_form .row .holder textarea.disabled::placeholder,
+.reg_form .row .holder textarea.disabled::-ms-input-placeholder
+{
+    opacity: 0.7;
+}
+
+.reg_form.active .radio_group .radio_area
+{
+    margin-left: 10px;
+}
+
+.doc_val {
+    position: relative;
+}
+
+.docs_line {
+    margin-top: 30px;
+}
+.docs_line .doc_line {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.docs_line .doc_line .doc_title {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content form .row.error .row_err {
+    width: 255px;
+}
+
+.content .tab_form.reg_form_control_tabs.no_access {
+    display: none;
+}
+.content .tab_form.reg_form_control_tabs.no_access .item {
+    cursor: default;
+}
+.content .tab_form.reg_form_control_tabs.no_access .item span {
+    cursor: default;
+}
+
+.signer_ul, .signer_ip {
+    display: none;
+}
+.signer_ul_dir,
+.signer_ul_gendir,
+.signer_ul_sign,
+.signer_ip_ip,
+.signer_ip_sign {
+    display: none;
+}
+
+.bx-calendar-range .disabled{
+    pointer-events: none;
+}
+
+.content input.signer_found_num[type="text"] {
+    width: 80px;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.content input.signer_found_date[type="text"] {
+    display: inline-block;
+    margin: 0 16px;
+    width: 150px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .reg_form .row .needItem
+    {
+        top: 22px;
+    }
+
+    .reg_form .row .holder textarea
+    {
+        width: 430px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    /*.reg_form .row.phone_sms.error .needItem{
+        top: 22px;
+    }
+
+    .content form .row.phone_sms.error .row_val
+    {
+        padding-top: 0;
+    }
+
+    .content form .row.error .row_err
+    {
+        position: relative;
+    }*/
+
+    .content form .row.error .sms_confirmation.active .row_val
+    {
+        padding-top: 0;
+    }
+
+    .reg_form .row.error .sms_confirmation .needItem,
+    .reg_form .row.error.big_err .sms_confirmation .needItem
+    {
+        top: 14px;
+    }
+
+    .content form .row.error .sms_confirmation .row_err{
+        position: absolute;
+        margin-top: 0;
+        top: -110px;
+    }
+
+    .content form .row.error.big_err .row_val{
+        padding-top: 70px;
+    }
+
+    .reg_form .row.error.big_err .needItem{
+        top: 85px;
+    }
+}
+
+@media screen and (max-width: 544px)
+{
+    .row.phone_sms .holder.row_val input[type="text"],
+    .row.phone_sms .sms_confirmation .row_val input[type="text"]{
+        width: 185px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .reg_form .row .holder textarea
+    {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .row.phone_sms .send_button{
+        clear: left;
+        margin-top: 10px;
+        margin-left: 0;
+        width: 175px;
+    }
+
+    .row.phone_sms .sms_confirmation .row_val .submit_sms_button{
+        clear: left;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 175px;
+    }
+
+    .row.phone_sms .sms_confirmation{
+        padding-top: 15px;
+    }
+
+    .content form .row.error .sms_confirmation .row_err{
+        top: -180px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .reg_form .row .holder textarea
+    {
+        width: 280px;
+        min-width: 280px;
+        max-width: 280px;
+    }
+}

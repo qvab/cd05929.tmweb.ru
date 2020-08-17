@@ -1,0 +1,10 @@
+#transport_request .wrap-select,
+#transport_request .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+#transport_request .wrap-select select,
+#transport_request .wrap-btn input {
+    width: 300px;
+}

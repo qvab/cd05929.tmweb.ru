@@ -1,0 +1,20 @@
+.list_page_rows .line_area .line_additional .prop_area.total div.name {
+    opacity: 1;
+}
+.list_page_rows .line_area .line_additional .prop_area.total div.val {
+    opacity: 1;
+}
+
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}

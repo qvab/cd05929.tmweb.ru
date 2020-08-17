@@ -1,0 +1,60 @@
+.list_page_rows.requests .line_area.open .line_inner,
+.list_page_rows.requests .line_area.open .line_inner:hover {
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.requests .line_area.cancel .line_inner,
+.list_page_rows.requests .line_area.cancel .line_inner:hover {
+    border-left: 10px solid #2b323d;
+}
+.arw_icon {
+    background: url(/local/templates/main/images/select_arw_right.png) center center no-repeat;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 24px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.market .line_area {
+    margin: 16px 0 32px 0;
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 16px;
+}
+.market .title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.market .line_area .type_list_block {
+    margin: 0 16px;
+}
+.market .line_area .type_list_block .type_item {
+    position: relative;
+    margin-bottom: 16px;
+}
+.market .line_area .type_list_block .type_item .type_title {
+    float: left;
+    margin-top: 16px;
+    font-weight: bold;
+}
+.market .line_area .type_list_block .type_item .model_list {
+    margin-left: 240px;
+}
+.market .line_area .type_list_block .type_item .model_list .model_item {
+    margin-bottom: 12px;
+}
+.market .line_area .type_list_block .type_item .model_list .model_item .model_title {
+    float: left;
+    width: 180px;
+    margin-top: 16px;
+}
+.market .line_area .type_list_block .type_item .model_list .model_item .model_input input {
+    width: 140px;
+    display: inline-block;
+}
+.market .line_area .type_list_block .split {
+    height: 16px;
+    border-top: 1px dashed #e1e1e1;
+}

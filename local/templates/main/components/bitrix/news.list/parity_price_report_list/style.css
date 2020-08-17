@@ -1,0 +1,73 @@
+.crow {
+    margin: 8px 0;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.download_block {
+    float: left;
+    width: 10%;
+}
+.cname {
+    float: left;
+    width: 30%;
+}
+.download_xls {
+    background: url("/local/templates/main/images/xls.png");
+    height: 31px;
+    width: 32px;
+}
+.comment_sp {
+    font-size: 12px;
+}
+
+.content .submit-btn {
+    width: 320px!important;
+}
+
+.content .report_date {
+    width: 260px!important;
+}
+
+.price-param-title {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+h1.page_header {
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 1160px) {
+    .content .submit-btn {
+        width: 290px!important;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .cname {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .cname {
+        width: 55%;
+    }
+    h1.page_header {
+        margin-bottom: 15px!important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .cname {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .cname {
+        width: 75%;
+    }
+}

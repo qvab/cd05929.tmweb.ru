@@ -1,0 +1,62 @@
+.cancel_filter {
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+.cancel_filter:hover {
+    text-decoration: none;
+    background: #309cfa;
+}
+
+.fblock_cl,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fblock_wh,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+form.select_item
+{
+    padding-bottom: 20px;
+}
+
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.content form .fblock_cl select,
+.content form .fblock_wh select {
+    width: 300px;
+}
+
+@media screen and (max-width: 1160px) {
+    .cancel_filter {
+        padding: 10px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .fbtn_submit,
+    .fbtn_cancel{
+        width: 280px;
+    }
+}

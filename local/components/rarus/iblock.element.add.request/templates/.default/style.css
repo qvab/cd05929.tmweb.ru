@@ -1,0 +1,197 @@
+.tarif_info {
+    margin: 12px 0;
+    display: none;
+}
+.tarif_info.active {
+    display: block;
+}
+#back_shad
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #000;
+    z-index: 92;
+    display: none;
+}
+
+#load_img
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/local/templates/main/images/indic.png) center center no-repeat;
+    z-index: 93;
+    display: none;
+}
+.ton_pos
+{
+    position: absolute;
+    top: 18px;
+    left: 450px;
+    display: inline-block;
+}
+
+.content .request_add .request-block2.row .radio_group
+{
+    max-width: 1100px;
+}
+.content .request_add .request-block2.row .radio_group:after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.content .request_add .request-block2.row .radio_area
+{
+    float: left;
+    width: 33%;
+}
+
+.content .request_add .request-block2.row .custom_input
+{
+    padding-right: 10px;
+}
+
+.wh_price {
+    margin-bottom: 36px;
+}
+
+.wh_price .sub_row.txt {
+    width: 260px;
+    float: left;
+    position: relative;
+}
+
+.wh_price .sub_row.txt .min_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+}
+
+.wh_price .sub_row.txt .max_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    left: 196px;
+    color: #b9b9b9;
+}
+
+.wh_price .sub_row.txt .min_price span,
+.wh_price .sub_row.txt .max_price span {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+}
+
+.wh_price .sub_row.txt .quality-param-intro.txt {
+    margin: 0px 58px;
+}
+
+.wh_price .cost-item.radio_area {
+    margin-left: 260px;
+    padding-top: 22px;
+}
+
+.wh_price .cost-item.radio_area .name {
+    margin-left: 35px;
+}
+
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .wh_price .sub_row.txt .quality-param-intro input {
+        width: 70px;
+    }
+    .wh_price .sub_row.txt .quality-param-intro span.plus {
+        left: 110px;
+    }
+    .wh_price .sub_row.txt .min_price,
+    .wh_price .sub_row.txt .max_price {
+        top: 12px;
+    }
+    .wh_price .cost-item.radio_area {
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 840px)
+{
+    .content .request_add .request-block2.row .radio_area
+    {
+        width: 50%;
+    }
+
+    .content .request_add .request-block2.row .custom_input
+    {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .wh_price .cost-item.radio_area .address {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .wh_price .cost-item.radio_area {
+        margin-left: 0;
+        clear: left;
+    }
+}
+
+@media screen and (max-width: 370px)
+{
+    .content .request_add .request-block2.row .radio_area
+    {
+        float: none;
+        width: auto;
+    }
+
+    .content .request_add .request-block2.row .custom_input
+    {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .ton_pos
+    {
+        left: 310px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .ton_pos
+    {
+        left: 290px;
+    }
+}

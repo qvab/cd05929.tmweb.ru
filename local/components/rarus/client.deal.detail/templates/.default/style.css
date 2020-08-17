@@ -1,0 +1,156 @@
+.active_stage {
+    background: #fef9db;
+    border: 2px solid #ffde1b !important;
+}
+.closed {
+    background: #DDDDDD;
+}
+.document {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+a.loader_click {
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    height: 56px;
+    border: 3px solid #309cfa;
+    line-height: 52px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+a.loader_click:hover {
+    text-decoration: none;
+}
+.vi_table_area
+{
+    overflow: auto;
+}
+.vi-table {
+    min-width: 500px;
+    margin-right: 0;
+    font-size: 14px;
+}
+.vi-table .vi-row {
+    padding-bottom: 8px;
+    height: 36px;
+}
+.vi-table .vi-row .vi-cell {
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+.vi-table .vi-row .vi-cell input {
+    width: 80%;
+    border: 1px solid #9b9b9b;
+    padding: 4px;
+    margin: 0 6%;
+    color: #606060;
+    font-size: 14px;
+}
+.list_page_rows.deals .line_area .line_additional .prop_area.i0,
+.list_page_rows.deals .line_area .line_additional .prop_area.i1,
+.list_page_rows.deals .line_area .line_additional .prop_area.i2,
+.list_page_rows.deals .line_area .line_additional .prop_area.i3,
+.list_page_rows.deals .line_area .line_additional .prop_area {
+    padding-left: 90px;
+    position: relative;
+    line-height: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area .sub_step_num {
+    position: absolute;
+    margin-left: -48px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+.more-btn.make_order
+{
+    position: absolute;
+    bottom: 8px;
+    right: 80px;
+    width: 100px;
+    height: 40px;
+    padding: 8px;
+}
+
+.reject_info {
+    margin: 16px 0;
+    color: #C90000;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1160px) {
+    a.loader_click
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1114px) {
+    .more-btn.make_order
+    {
+        right: auto;
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    a.loader_click
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a.loader_click
+    {
+        width: 300px;
+    }
+
+    .more-btn.make_order {
+        right: auto;
+        left: 190px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .list_page_rows.deals .line_area .line_additional .prop_area.i0,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i1,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i2,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i3,
+    .list_page_rows.deals .line_area .line_additional .prop_area
+    {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    a.loader_click
+    {
+        width: 250px;
+    }
+
+    .more-btn.make_order {
+        right: auto;
+        left: -8px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    a.loader_click
+    {
+        width: 200px;
+    }
+}

@@ -1,0 +1,3 @@
+<p><a href="javascript: void(0);" data-action="reglament"   rel="nofollow" class="item" onclick="showPublicOtherForm('.reglament_page', this);">Соглашение о взаимодействии в рамках оказания услуг на ЭТП "АГРОХЕЛПЕР" (Публичная оферта)</a></p>
+<p><a href="javascript: void(0);" data-action="agreement"   rel="nofollow" class="item" onclick="showPublicOtherForm('.agreement_page', this);">Согласие на обработку персональных данных</a></p>
+<p><a href="javascript: void(0);" data-action="policy"      rel="nofollow" class="item" onclick="showPublicOtherForm('.policy_page', this);">Политика обработки персональных данных</a></p>

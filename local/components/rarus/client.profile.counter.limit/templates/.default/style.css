@@ -1,0 +1,21 @@
+.opening_limit_ended
+{
+    margin-bottom:5px;
+}
+
+.opening_limit_ended .result_message,
+.opening_limit_available .result_message
+{
+    color: #5CB100;
+    margin-bottom:5px;
+}
+
+.opening_limit_available .limit_val
+{
+    color: #5CB100;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.list_page_rows .line_area .line_inner .name span {
+    font-weight: normal;
+}
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+.list_page_rows.pairs_rows_list.low_margin {
+    margin-top: 0px;
+}

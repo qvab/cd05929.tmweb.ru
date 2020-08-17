@@ -1,0 +1,70 @@
+.content-form.changepswd-form.public_form.active input.phone_msk
+{
+    width: 128px;
+    float: left;
+}
+
+.content-form.changepswd-form.public_form.active .description
+{
+    padding-top: 5px;
+}
+
+.content form .row .err_row
+{
+    color: #c10000;
+    padding-bottom: 5px;
+}
+
+.starrequired
+{
+    color: #c10000;
+}
+
+@media screen and (max-width: 768px)
+{
+    .content-form.changepswd-form.public_form.active .phone_sms.row.error .row_err
+    {
+        position: relative;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 544px)
+{
+    .content-form.changepswd-form.public_form.active input.phone_msk
+    {
+        width: 185px;
+    }
+
+    .content-form.changepswd-form.public_form.active .close
+    {
+        top: 0;
+    }
+
+    .content-form.changepswd-form.public_form.active .page_sub_title
+    {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 430px)
+{
+    .content-form.changepswd-form.public_form.active input[type="submit"]
+    {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 370px)
+{
+    .row.phone_sms.check_success .success_ico
+    {
+        margin-left: 10px;
+        width: 30px;
+    }
+
+    .content-form.changepswd-form.public_form.active input[type="submit"]
+    {
+        width: 240px;
+    }
+}

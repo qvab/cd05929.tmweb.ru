@@ -1,0 +1,357 @@
+.list_page_rows.requests .line_area.open .line_inner,
+.list_page_rows.requests .line_area.open .line_inner:hover {
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.requests .line_area.cancel .line_inner,
+.list_page_rows.requests .line_area.cancel .line_inner:hover {
+    border-left: 10px solid #2b323d;
+}
+
+.fblock_cl,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fblock_wh,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.list_page_rows .line_area .line_additional .prop_area .area_1
+{
+    max-width: 420px;
+}
+.list_page_rows .line_area .line_additional .prop_area .area_1.agent_price
+{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress .radio_group
+{
+    position: relative;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress.inactive
+{
+    display: none;
+}
+
+.slide-description .price_value
+{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    white-space: nowrap;
+}
+
+.message-add
+{
+    font-style: italic;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #D0021B;
+}
+.message-add.inactive
+{
+    display: none;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .adress .approved_quality
+{
+    display: inline-block;
+    color: #5CB100;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.message_area .message 
+{
+    color: #559955;
+}
+.message_area .message.err
+{
+    color: #f53548;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited
+{
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.accept.empty .submit-btn
+{
+    color: #D0021B;
+    background: #FFF;
+    box-shadow: 0 3px 2px #AAA;
+    cursor: default;
+    display: none;
+}
+
+.cancel_filter:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+.content form .fblock_cl select,
+.content form .fblock_fm select
+{
+    width: 300px;
+}
+
+.tab_form #deals_filter .wrap-select,
+.tab_form #deals_filter .wrap-btn
+{
+    padding-bottom: 0;
+}
+
+
+.list_page_rows .line_area .line_inner .black_list_ico
+{
+    display: none;
+}
+.list_page_rows .line_area.black_list .line_inner .black_list_ico
+{
+    display: block;
+    position: absolute;
+    margin-top: -13px;
+    top: 50%;
+    right: 20px;
+    width: 19px;
+    height: 25px;
+    background: url(/local/templates/main/images/blacklist.png) top left no-repeat;
+}
+
+.list_page_rows .line_area .line_additional .prop_area .black_list_ico
+{
+    padding: 15px 0 10px 30px;
+    background: url(/local/templates/main/images/blacklist.png) center left no-repeat;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.black_list_row,
+.list_page_rows .line_area .line_additional .prop_area.pot_black_list_row
+{
+    display: none;
+}
+.list_page_rows .line_area.black_list .line_additional .prop_area.black_list_row,
+.list_page_rows .line_area.pot_black_list_area .line_additional .prop_area.pot_black_list_row
+{
+    display: block;
+}
+
+.list_page_rows .line_area.pot_black_list_area .line_additional .prop_area.pot_black_list_row .related_time
+{
+    padding-bottom: 10px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.prices_val .name_1
+{
+    min-width: 295px!important;
+}
+
+@media screen and (max-width: 670px)
+{
+    .list_page_rows .line_area.black_list .line_inner .black_list_ico
+    {
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .list_page_rows.requests .line_area .line_inner div.name
+    {
+        padding-left: 15px;
+        width: 220px;
+    }
+
+    .list_page_rows.requests .line_area .line_inner .wh_name
+    {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 699px)
+{
+    .tab_form #deals_filter .wrap-select,
+    .tab_form #deals_filter .wrap-btn
+    {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    .list_page_rows.requests .line_area .line_inner div.name
+    {
+        padding-left: 15px;
+        width: 150px;
+    }
+
+    .list_page_rows.requests .line_area .line_inner div.tons
+    {
+        width: 80px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .list_page_rows.requests .line_area .line_inner div.name
+    {
+        padding-left: 15px;
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .fbtn_submit input,
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        max-width: 280px;
+    }
+
+    .list_page_rows.requests .line_area .line_inner div.name
+    {
+        padding-left: 15px;
+        width: 120px;
+    }
+
+    .tab_form #deals_filter .wrap-btn input
+    {
+        width: 280px;
+    }
+}
+
+
+/**
+detail
+ */
+.deal_detail {
+    border: none;
+
+    padding: 30px 0 0 24px;
+}
+.deal_detail .line_area {
+    margin-bottom: 32px;
+}
+.deal_detail .line_area .line_block {
+    float: left;
+    width: 350px;
+    margin-right: 15px;
+}
+.deal_detail .line_area .line_block .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.deal_detail .line_area .line_block .text {
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1060px)
+{
+    .deal_detail .line_area .line_block
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .deal_detail .line_area .line_block
+    {
+        width: auto;
+        float: none;
+    }
+
+    .deal_detail .line_area .line_block .title
+    {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    .list_page_rows .line_area .line_additional .prop_area .area_1.agent_price
+    {
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .slide-description .price_value
+    {
+        position: relative;
+        top: -5px;
+        left: 0;
+        white-space: inherit;
+    }
+
+    .message-add
+    {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .content .line_additional .pot_black_list_row .submit-btn {
+        width: 280px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .content .line_additional .pot_black_list_row .submit-btn
+    {
+        margin-left: -20px;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.prices_val .name_1
+    {
+        margin-left: -10px;
+    }
+}

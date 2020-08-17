@@ -1,0 +1,488 @@
+.content form.request_add .row .row_head {
+    margin-bottom: 16px;
+}
+
+.tarif_info {
+    margin: 12px 0;
+    display: none;
+}
+.tarif_info.active {
+    display: block;
+}
+#back_shad
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #000;
+    z-index: 92;
+    display: none;
+}
+
+#load_img
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+    background: url(/local/templates/main/images/indic.png) center center no-repeat;
+    z-index: 93;
+    display: none;
+}
+.ton_pos
+{
+    position: absolute;
+    top: 18px;
+    left: 450px;
+    display: inline-block;
+}
+
+.prices_switcher
+ {
+     position: relative;
+     margin-bottom: 24px;
+ }
+
+.prices_switcher .prices_diver
+{
+    display: inline-block;
+}
+
+.prices_switcher .prices_base
+{
+    display: inline-block;
+    color: #1a64bf;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.prices_switcher .prices_math
+{
+    display: inline-block;
+    color: #1a64bf;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.content form .row.regions_row
+{
+    display: none;
+}
+.content form .row.regions_row.active
+{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.content form .row.regions_row .radio_area
+{
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+.content form .row.regions_row .linked_regions_data .radio_area:nth-child(3n + 1)
+{
+    clear: left;
+}
+.content form .row.regions_row .other_regions_data .radio_area.inactive
+{
+    display: none;
+}
+
+.content form .row.regions_row .linked_regions_label
+{
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+.content form .row.regions_row .linked_regions_label.remove_href
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.content form .row.regions_row .other_regions_data .remove_href
+{
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
+.content form .row.regions_row .linked_regions_label.select_href
+{
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.content form .row.regions_row .other_regions_data .select_href
+{
+    position: absolute;
+    top: -35px;
+    right: 100px;
+}
+
+.content form .row.regions_row .additional_row
+{
+    margin-top: 0;
+}
+
+.content form .row.regions_row.error .row_err
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.content form .row.regions_row .linked_regions_data
+{
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.content form .row.regions_row .other_regions_label
+{
+    margin-bottom: 20px;
+}
+
+.content form .row.regions_row .other_regions_label a:link,
+.content form .row.regions_row .other_regions_label a:active,
+.content form .row.regions_row .other_regions_label a:visited
+{
+    font-size: 14px;
+    color: #478bb7;
+    cursor: pointer;
+    padding-top: 15px;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+.content form .row.regions_row .other_regions_label a:hover
+{
+    font-size: 14px;
+    color: #478bb7;
+    cursor: pointer;
+    padding-top: 15px;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.content form .row.regions_row .other_regions_data
+{
+    margin-bottom: 10px;
+    display: none;
+}
+.content form .row.regions_row .other_regions_data.active
+{
+    display: block;
+    position: relative;
+}
+
+.content .request_add .request-block2.row .radio_group
+{
+    max-width: 1100px;
+}
+.content .request_add .request-block2.row .radio_group:after
+{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.content .request_add .request-block2.row .radio_area
+{
+    float: left;
+    width: 33%;
+}
+
+.content .request_add .request-block2.row .custom_input
+{
+    padding-right: 10px;
+}
+
+.wh_price .sub_row.txt .other_sno_area
+{
+    position: relative;
+}
+
+.wh_price .sub_row.txt .other_sno_area .label_cur
+{
+    position: absolute;
+    color: #b9b9b9;
+    top: -35px;
+    left: -50px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.wh_price .sub_row.txt .other_sno_area .label
+{
+    position: absolute;
+    color: #b9b9b9;
+    top: 11px;
+    left: -50px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.wh_price .sub_row.txt .other_sno_area .minimum_price
+{
+    position: absolute;
+    color: #b9b9b9;
+    top: 9px;
+    left: 0;
+    text-align: center;
+    width: 50px;
+    font-size: 12px;
+}
+
+.wh_price .sub_row.txt .other_sno_area .current_price
+{
+    position: absolute;
+    color: #b9b9b9;
+    top: 9px;
+    left: 90px;
+    text-align: center;
+    width: 70px;
+    font-size: 12px;
+}
+
+.wh_price .sub_row.txt .other_sno_area .maximum_price
+{
+    position: absolute;
+    color: #b9b9b9;
+    top: 9px;
+    left: 196px;
+    text-align: center;
+    width: 50px;
+    font-size: 12px;
+}
+
+.wh_price {
+    margin-bottom: 55px;
+    margin-left: 47px;
+}
+
+.wh_price .sub_row.txt {
+    width: 260px;
+    float: left;
+    position: relative;
+}
+
+.wh_price .sub_row.txt .min_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+}
+
+.wh_price .sub_row.txt .max_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    left: 196px;
+    color: #b9b9b9;
+}
+
+.wh_price .sub_row.txt .min_price span,
+.wh_price .sub_row.txt .max_price span {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    right: 0;
+}
+
+.wh_price .sub_row.txt .quality-param-intro.txt {
+    margin: 0px 58px;
+}
+
+.wh_price .cost-item.radio_area {
+    margin-left: 260px;
+    padding-top: 22px;
+}
+
+.wh_price .cost-item.radio_area .name {
+    margin-left: 35px;
+    display: inline;
+}
+
+.wh_price .radio_area.cost-item label .address
+{
+    display: inline;
+}
+
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.request_add .request-blocks .remoteness .min-remoteness {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .wh_price .sub_row.txt .quality-param-intro input {
+        width: 70px;
+    }
+    .wh_price .sub_row.txt .quality-param-intro span.plus {
+        left: 110px;
+    }
+    .wh_price .sub_row.txt .min_price,
+    .wh_price .sub_row.txt .max_price {
+        top: 12px;
+    }
+    .wh_price .cost-item.radio_area {
+        padding-top: 12px;
+    }
+
+    .wh_price {
+        margin-bottom: 45px;
+    }
+
+    .wh_price .sub_row.txt .other_sno_area .label_cur
+    {
+        top: -26px;
+    }
+}
+
+@media screen and (max-width: 840px)
+{
+    .content .request_add .request-block2.row .radio_area
+    {
+        width: 50%;
+    }
+
+    .content .request_add .request-block2.row .custom_input
+    {
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .wh_price .cost-item.radio_area .address {
+        margin-left: 35px;
+        display: inline-block;
+    }
+
+    form.request_add .request-block-r.row .radio_area.cost-item label span.name
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .content form .row.regions_row .radio_area {
+        margin-right: 10px;
+        margin-bottom: 15px;
+        width: 45%;
+    }
+    .content form .row.regions_row .linked_regions_data .radio_area:nth-child(3n + 1)
+    {
+        clear: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .wh_price .cost-item.radio_area {
+        margin-left: 0;
+        clear: left;
+        margin-bottom: 50px;
+        top: 20px;
+    }
+
+    .wh_price {
+        margin-bottom: 0;
+    }
+
+    .wh_price .radio_area.cost-item label span.address
+    {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .content form .row.regions_row .radio_area {
+        margin-right: 0;
+        width: auto;
+        float: none;
+    }
+
+    .content form .row.regions_row .linked_regions_label.select_href,
+    .content form .row.regions_row .other_regions_data .select_href
+    {
+        right: 85px;
+    }
+}
+
+@media screen and (max-width: 370px)
+{
+    .content .request_add .request-block2.row .radio_area
+    {
+        float: none;
+        width: auto;
+    }
+
+    .content .request_add .request-block2.row .custom_input
+    {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .ton_pos
+    {
+        left: 310px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .prices_switcher .prices_base,
+    .prices_switcher .prices_math
+    {
+        display: block;
+        margin: 0;
+    }
+
+    .prices_switcher .prices_diver
+    {
+        display: none;
+    }
+
+    .prices_switcher .prices_base
+    {
+        margin-bottom: 10px;
+    }
+
+    .radio_area.cost-item label .address
+    {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .ton_pos
+    {
+        left: 290px;
+    }
+}

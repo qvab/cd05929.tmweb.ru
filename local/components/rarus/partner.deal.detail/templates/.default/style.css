@@ -1,0 +1,261 @@
+.active_stage {
+    background: #fef9db;
+    border: 2px solid #ffde1b !important;
+}
+.closed {
+    background: #DDDDDD;
+}
+.document {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+}
+a.loader_click {
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    height: 56px;
+    border: 3px solid #309cfa;
+    line-height: 52px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+a.loader_click:hover {
+    text-decoration: none;
+}
+.add-line {
+    display: none;
+}
+.vi-table {
+    font-size: 14px;
+    margin-top: 16px;
+    line-height: 16px;
+    position: relative;
+    margin-right: 0;
+    padding-right: 30px;
+    min-width: 620px;
+    box-sizing: border-box;
+}
+.vi-table.col7 {
+    width: 800px;
+}
+.vi-table .vi-row {
+    padding-bottom: 8px;
+    height: 36px;
+}
+.vi-table .vi-row .vi-cell {
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+.vi-table.col7 .vi-row .vi-cell {
+    width: 14%;
+}
+.vi_table_area
+{
+    margin-right: -30px;
+    overflow: auto;
+}
+
+.vi-table .vi-row .vi-cell input {
+    width: 80%;
+    border: 1px solid #9b9b9b;
+    padding: 4px;
+    margin: 0 6%;
+    color: #606060;
+    font-size: 14px;
+}
+
+.more-btn {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.prop_area .submit-btn[name="save_reestr"],
+.prop_area .submit-btn.edit-btn
+{
+    width: 250px;
+}
+.prop_area .submit-btn.edit-btn
+{
+    float: right;
+}
+.prop_area .reestr_more.more-btn .submit-btn {
+    height: 36px;
+    width: 100px;
+    line-height: 8px;
+    float: right;
+}
+.accept-btn {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    height: 36px;
+}
+.accept-btn .submit-btn {
+    height: 36px;
+    line-height: 8px;
+    float: right;
+}
+.list_page_rows.deals .line_area .line_additional .prop_area.i0,
+.list_page_rows.deals .line_area .line_additional .prop_area.i1,
+.list_page_rows.deals .line_area .line_additional .prop_area.i2,
+.list_page_rows.deals .line_area .line_additional .prop_area.i3,
+.list_page_rows.deals .line_area .line_additional .prop_area.i4,
+.list_page_rows.deals .line_area .line_additional .prop_area.i5,
+.list_page_rows.deals .line_area .line_additional .prop_area.i6,
+.list_page_rows.deals .line_area .line_additional .prop_area {
+    padding-left: 90px;
+    position: relative;
+    line-height: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area .sub_step_num {
+    position: absolute;
+    margin-left: -48px;
+    top: 50%;
+    margin-top: -12px;
+}
+.vi-item {
+    position: relative;
+}
+.delete-vi-item {
+    background: url(/local/templates/main/images/svg/menu_close_black.svg) center center no-repeat;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    margin-top: -43px;
+}
+
+.add-vi-title {
+    padding-bottom: 16px;
+}
+
+.content input.signer_found_num[type="text"] {
+    width: 80px;
+    display: inline-block;
+    margin: 0 16px;
+}
+.content input.signer_found_date[type="text"] {
+    display: inline-block;
+    margin: 0 16px;
+    width: 150px;
+}
+
+.content .reject .empty_but {
+    border: 4px solid #C90000;
+    color: #C90000;
+}
+
+.reject_info {
+    margin: 16px 0;
+    color: #C90000;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1400px) {
+    .vi-table {
+        font-size: 12px;
+    }
+
+    .delete-vi-item {
+        width: 11px;
+        height: 11px;
+        margin-top: -42px;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1160px) {
+    .vi-table {
+        font-size: 11px;
+    }
+
+    .prop_area .submit-btn[name="save_reestr"],
+    .prop_area .submit-btn.edit-btn
+    {
+        padding: 10px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .vi_table_area
+    {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .vi_table_area
+    {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .vi-table {
+        font-size: 12px;
+    }
+
+    .delete-vi-item {
+        width: 11px;
+        height: 11px;
+        margin-top: -42px;
+    }
+
+    .list_page_rows.deals .line_area .line_additional .prop_area.i0,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i1,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i2,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i3,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i4,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i5,
+    .list_page_rows.deals .line_area .line_additional .prop_area.i6,
+    .list_page_rows.deals .line_area .line_additional .prop_area
+    {
+        padding-left: 70px;
+    }
+
+    .prop_area .submit-btn[name="save_reestr"],
+    .prop_area .submit-btn.edit-btn
+    {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .vi-table {
+        font-size: 11px;
+    }
+
+    .prop_area .submit-btn[name="save_reestr"],
+    .prop_area .submit-btn.edit-btn
+    {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .prop_area .submit-btn[name="save_reestr"]
+    {
+        position: relative;
+        top: 70px;
+        display: block;
+    }
+
+    .prop_area .submit-btn.edit-btn
+    {
+        position: relative;
+        bottom: 70px;
+        float: none;
+        display: block;
+        margin-top: 20px;
+    }
+}

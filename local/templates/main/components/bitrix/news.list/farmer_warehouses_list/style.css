@@ -1,0 +1,48 @@
+.list_page_rows.warehouses .line_area.yes .line_inner,
+.list_page_rows.warehouses .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows.warehouses .line_area.no .line_inner,
+.list_page_rows.warehouses .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+.list_page_rows.warehouses .line_area .line_inner .name {
+    padding-left: 20px !important;
+}
+#load_mes {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    width: 300px;
+    margin-left: -150px;
+}
+#load_mes input {
+    background: #47a1f0;
+    font-size: 14px;
+    border: none;
+    box-sizing: border-box;
+    padding: 8px 28px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin: 16px auto 0;
+    display: block;
+    cursor: pointer;
+}
+#load_mes input:hover {
+    background: #309cfa;
+}
+#load_mes div {
+    text-align: center;
+    line-height: 18px;
+}
+
+.content form .row.map
+{
+    margin-top: 0;
+}

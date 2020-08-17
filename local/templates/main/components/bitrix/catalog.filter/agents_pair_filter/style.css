@@ -1,0 +1,49 @@
+#deals_filter .wrap-select,
+#deals_filter .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+#deals_filter .wrap-select select,
+#deals_filter .wrap-btn input {
+    width: 300px;
+}
+
+.tab_form #deals_filter .row .wrap-select
+{
+    padding-bottom: 25px;
+}
+
+.content form .row.submit_row
+{
+    margin-top: 0;
+}
+
+@media screen and (max-width: 700px)
+{
+    .tab_form #deals_filter .row .wrap-select:nth-child(3n)
+    {
+        padding-top: 0;
+    }
+
+    .content form .row.submit_row
+    {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 670px)
+{
+    .list_page_rows.requests .line_area .line_inner .wh_name
+    {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    #deals_filter .wrap-select .select2
+    {
+        width: 280px !important;
+    }
+}

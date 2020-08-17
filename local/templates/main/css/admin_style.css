@@ -1,0 +1,28 @@
+.admin_download_button:link,
+.admin_download_button:active,
+.admin_download_button:visited,
+.admin_download_button:hover
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 155px;
+    height: auto;
+    padding: 7px 0 7px 32px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 58px;
+    top: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.admin_download_button .ico
+{
+    background: url(/bitrix/panel/main/images/popup_menu_sprite_2.png) no-repeat 0 -932px;
+    height: 29px;
+    width: 34px;
+    position: absolute;
+    margin-top: -6px;
+    margin-left: -32px;
+}

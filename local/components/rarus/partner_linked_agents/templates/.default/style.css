@@ -1,0 +1,9 @@
+.list_page_rows .line_area .line_additional.reward-options {
+    margin-top: -20px;
+}
+
+.list_page_rows .line_area .line_additional.reward-options .error_msg_save_options {
+    color: red;
+    padding-top: 15px;
+    display: none;
+}

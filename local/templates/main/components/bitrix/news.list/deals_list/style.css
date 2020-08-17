@@ -1,0 +1,86 @@
+.list_page_rows.requests .line_area.open .line_inner,
+.list_page_rows.requests .line_area.open .line_inner:hover {
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.requests .line_area.cancel .line_inner,
+.list_page_rows.requests .line_area.cancel .line_inner:hover {
+    border-left: 10px solid #2b323d;
+}
+
+.fblock_cl,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fblock_wh,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited
+{
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.cancel_filter:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+.content form .fblock_cl select,
+.content form .fblock_fm select
+{
+    width: 300px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .fbtn_submit input,
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        max-width: 280px;
+    }
+}

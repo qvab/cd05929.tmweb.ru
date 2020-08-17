@@ -1,0 +1,58 @@
+
+/*.form_block {
+    width: 600px;
+}*/
+
+.w_form .w_300 {
+    width: 300px;
+}
+
+.w_form .w_400 {
+    width: 400px;
+}
+
+.w_form td {
+    padding: 5px;
+}
+
+.button_block {
+    width: 100%;
+    text-align: right;
+}
+.transport,
+.map {
+    position: relative;
+}
+.ch_all_tr {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 1px dashed transparent;
+}
+.ch_all_tr:hover, .no_tr:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed #478bb7;
+}
+.content form .row.map.error .row_err {
+    left: 620px;
+    width: 150px;
+}
+
+.form_block.map {
+    max-width: 600px;
+}
+
+.no_deal_rights
+{
+    color: #ff0000;
+}
+
+.row.error .agro_select2_container.select2-container .select2-selection--single .select2-selection__rendered
+{
+    border-left-color: #f53548;
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ef4b5a), to(#d03042)) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(#ef4b5a, #d03042) 1 100%;
+    -moz-border-image: -moz-linear-gradient(#ef4b5a, #d03042) 1 100%;
+    -o-border-image: -o-linear-gradient(#ef4b5a, #d03042) 1 100%;
+    border-image: linear-gradient(to bottom, #ef4b5a, #d03042) 1 100%;
+}

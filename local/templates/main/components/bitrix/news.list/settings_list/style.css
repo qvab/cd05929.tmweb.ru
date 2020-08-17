@@ -1,0 +1,51 @@
+.list_page_rows .line_area.yes .line_inner,
+.list_page_rows .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows .line_area.no .line_inner,
+.list_page_rows .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+.notice-block {
+    float: left;
+    width: 25%;
+    max-width: 170px;
+    min-width: 140px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+}
+.radio_area.notice-block .custom_input .ico {
+    margin: 8px 45%;
+}
+.radio_group {
+    margin-bottom: 32px;
+}
+.radio_area.disabled .custom_input.checkbox .ico {
+    background: url(/local/templates/main/images/svg/menu_close_black.svg) center center no-repeat, url(/local/templates/main/images/svg/check_blue.svg) center center no-repeat;
+    opacity: 0.5;
+}
+.ch_all_tr {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-bottom: 1px dashed transparent;
+}
+.ch_all_tr:hover, .no_tr:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed #478bb7;
+}

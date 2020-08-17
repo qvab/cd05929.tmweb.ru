@@ -1,0 +1,2253 @@
+Array
+(
+    [ERROR_MESSAGE] => 
+    [MODE] => agent
+    [CLIENT_LIST] => Array
+        (
+            [1312] => 0
+            [1237] => 1
+            [1203] => 2
+            [1204] => 3
+            [1188] => 4
+            [266] => 5
+            [1331] => 6
+            [1366] => 7
+            [1493] => 8
+            [1503] => 9
+            [1504] => 10
+            [1593] => 11
+            [1601] => 12
+            [1678] => 13
+            [1776] => 14
+            [1845] => 15
+            [2888] => 16
+            [351] => 17
+        )
+
+    [USER_RIGHTS] => Array
+        (
+            [266] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [351] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1188] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1203] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1204] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1237] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1312] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1331] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1366] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1493] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1503] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1504] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1593] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1601] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1776] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [1845] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+            [2888] => Array
+                (
+                    [REQUEST_RIGHT] => Y
+                )
+
+        )
+
+    [ITEMS] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 235
+                    [UF_OFFER_ID] => 359576
+                    [UF_REQUEST_ID] => 359369
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 12800
+                    [UF_FARMER_PRICE] => 11000
+                    [UF_CLIENT_WH_ID] => 330079
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [1] => Array
+                (
+                    [ID] => 236
+                    [UF_OFFER_ID] => 359576
+                    [UF_REQUEST_ID] => 350596
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 11710
+                    [UF_FARMER_PRICE] => 11000
+                    [UF_CLIENT_WH_ID] => 335318
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [2] => Array
+                (
+                    [ID] => 237
+                    [UF_OFFER_ID] => 359590
+                    [UF_REQUEST_ID] => 359740
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 12250
+                    [UF_FARMER_PRICE] => 10500
+                    [UF_CLIENT_WH_ID] => 350166
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [3] => Array
+                (
+                    [ID] => 238
+                    [UF_OFFER_ID] => 359590
+                    [UF_REQUEST_ID] => 359726
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 12250
+                    [UF_FARMER_PRICE] => 10500
+                    [UF_CLIENT_WH_ID] => 350166
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [4] => Array
+                (
+                    [ID] => 239
+                    [UF_OFFER_ID] => 359590
+                    [UF_REQUEST_ID] => 359714
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 12300
+                    [UF_FARMER_PRICE] => 10500
+                    [UF_CLIENT_WH_ID] => 331338
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [5] => Array
+                (
+                    [ID] => 240
+                    [UF_OFFER_ID] => 359590
+                    [UF_REQUEST_ID] => 359369
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => yes
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => fca
+                    [UF_VOLUME] => 1000
+                    [UF_BASE_CONTR_PRICE] => 12300
+                    [UF_FARMER_PRICE] => 10500
+                    [UF_CLIENT_WH_ID] => 330079
+                    [UF_FARMER_WH_ID] => 359574
+                    [UF_VOLUME_OFFER] => 1000
+                    [UF_VOLUME_REMAINS] => 1000
+                )
+
+            [6] => Array
+                (
+                    [ID] => 241
+                    [UF_OFFER_ID] => 359645
+                    [UF_REQUEST_ID] => 359471
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => dap
+                    [UF_VOLUME] => 50
+                    [UF_BASE_CONTR_PRICE] => 11551.5789
+                    [UF_FARMER_PRICE] => 8196
+                    [UF_CLIENT_WH_ID] => 359469
+                    [UF_FARMER_WH_ID] => 359644
+                    [UF_VOLUME_OFFER] => 50
+                    [UF_VOLUME_REMAINS] => 50
+                )
+
+            [7] => Array
+                (
+                    [ID] => 242
+                    [UF_OFFER_ID] => 359645
+                    [UF_REQUEST_ID] => 359651
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => dap
+                    [UF_VOLUME] => 50
+                    [UF_BASE_CONTR_PRICE] => 9141.0526
+                    [UF_FARMER_PRICE] => 8196
+                    [UF_CLIENT_WH_ID] => 16910
+                    [UF_FARMER_WH_ID] => 359644
+                    [UF_VOLUME_OFFER] => 50
+                    [UF_VOLUME_REMAINS] => 50
+                )
+
+            [8] => Array
+                (
+                    [ID] => 243
+                    [UF_OFFER_ID] => 359645
+                    [UF_REQUEST_ID] => 359834
+                    [UF_CLIENT_ID] => 2888
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => dap
+                    [UF_VOLUME] => 50
+                    [UF_BASE_CONTR_PRICE] => 9094.7368
+                    [UF_FARMER_PRICE] => 8196
+                    [UF_CLIENT_WH_ID] => 359504
+                    [UF_FARMER_WH_ID] => 359644
+                    [UF_VOLUME_OFFER] => 50
+                    [UF_VOLUME_REMAINS] => 50
+                )
+
+            [9] => Array
+                (
+                    [ID] => 245
+                    [UF_OFFER_ID] => 349948
+                    [UF_REQUEST_ID] => 359834
+                    [UF_CLIENT_ID] => 2888
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => exw
+                    [UF_VOLUME] => 0
+                    [UF_BASE_CONTR_PRICE] => 9079
+                    [UF_FARMER_PRICE] => 8301
+                    [UF_CLIENT_WH_ID] => 359504
+                    [UF_FARMER_WH_ID] => 338401
+                    [UF_VOLUME_OFFER] => 101
+                    [UF_VOLUME_REMAINS] => 0
+                )
+
+            [10] => Array
+                (
+                    [ID] => 246
+                    [UF_OFFER_ID] => 349948
+                    [UF_REQUEST_ID] => 359651
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => exw
+                    [UF_VOLUME] => 0
+                    [UF_BASE_CONTR_PRICE] => 8789
+                    [UF_FARMER_PRICE] => 8301
+                    [UF_CLIENT_WH_ID] => 16910
+                    [UF_FARMER_WH_ID] => 338401
+                    [UF_VOLUME_OFFER] => 101
+                    [UF_VOLUME_REMAINS] => 0
+                )
+
+            [11] => Array
+                (
+                    [ID] => 247
+                    [UF_OFFER_ID] => 349948
+                    [UF_REQUEST_ID] => 359471
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => exw
+                    [UF_VOLUME] => 0
+                    [UF_BASE_CONTR_PRICE] => 10857
+                    [UF_FARMER_PRICE] => 8301
+                    [UF_CLIENT_WH_ID] => 359469
+                    [UF_FARMER_WH_ID] => 338401
+                    [UF_VOLUME_OFFER] => 101
+                    [UF_VOLUME_REMAINS] => 0
+                )
+
+            [12] => Array
+                (
+                    [ID] => 248
+                    [UF_OFFER_ID] => 349948
+                    [UF_REQUEST_ID] => 350564
+                    [UF_CLIENT_ID] => 266
+                    [UF_NDS_CLIENT] => no
+                    [UF_NDS_FARMER] => no
+                    [UF_TYPE] => c
+                    [UF_DELIVERY] => exw
+                    [UF_VOLUME] => 0
+                    [UF_BASE_CONTR_PRICE] => 9101
+                    [UF_FARMER_PRICE] => 8301
+                    [UF_CLIENT_WH_ID] => 329796
+                    [UF_FARMER_WH_ID] => 338401
+                    [UF_VOLUME_OFFER] => 101
+                    [UF_VOLUME_REMAINS] => 0
+                )
+
+        )
+
+    [ADDITIONAL_DATA] => Array
+        (
+            [0] => Array
+                (
+                    [CULTURE_ID] => 209
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 11520
+                    [CLIENT_BASE_PRICE] => 10318
+                    [DIFFERENCE] => 1202
+                    [BASE_CONTR_PRICE] => 12800
+                    [CSM_FOR_CLIENT_VALUE] => 9720
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 12800
+                    [FARMER_CSM_PRICE] => 11000
+                    [TARIF] => 1800
+                )
+
+            [1] => Array
+                (
+                    [CULTURE_ID] => 103
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 10539
+                    [CLIENT_BASE_PRICE] => 9682
+                    [DIFFERENCE] => 857
+                    [BASE_CONTR_PRICE] => 11710
+                    [CSM_FOR_CLIENT_VALUE] => 9829
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 11710
+                    [FARMER_CSM_PRICE] => 11000
+                    [TARIF] => 710
+                )
+
+            [2] => Array
+                (
+                    [CULTURE_ID] => 209
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 11025
+                    [CLIENT_BASE_PRICE] => 9618
+                    [DIFFERENCE] => 1407
+                    [BASE_CONTR_PRICE] => 12250
+                    [CSM_FOR_CLIENT_VALUE] => 9275
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 12250
+                    [FARMER_CSM_PRICE] => 10500
+                    [TARIF] => 1750
+                )
+
+            [3] => Array
+                (
+                    [CULTURE_ID] => 209
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 11025
+                    [CLIENT_BASE_PRICE] => 9618
+                    [DIFFERENCE] => 1407
+                    [BASE_CONTR_PRICE] => 12250
+                    [CSM_FOR_CLIENT_VALUE] => 9275
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 12250
+                    [FARMER_CSM_PRICE] => 10500
+                    [TARIF] => 1750
+                )
+
+            [4] => Array
+                (
+                    [CULTURE_ID] => 209
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 11070
+                    [CLIENT_BASE_PRICE] => 9618
+                    [DIFFERENCE] => 1452
+                    [BASE_CONTR_PRICE] => 12300
+                    [CSM_FOR_CLIENT_VALUE] => 9270
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 12300
+                    [FARMER_CSM_PRICE] => 10500
+                    [TARIF] => 1800
+                )
+
+            [5] => Array
+                (
+                    [CULTURE_ID] => 209
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 11070
+                    [CLIENT_BASE_PRICE] => 10318
+                    [DIFFERENCE] => 752
+                    [BASE_CONTR_PRICE] => 12300
+                    [CSM_FOR_CLIENT_VALUE] => 9270
+                    [FARMER_DUMP_RUB] => -0
+                    [FARMER_BASE_CONTR_PRICE] => 12300
+                    [FARMER_CSM_PRICE] => 10500
+                    [TARIF] => 1800
+                )
+
+            [7] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => -457.05
+                    [BASE_PRICE] => 9141.0526315789
+                    [CLIENT_BASE_PRICE] => 8977
+                    [DIFFERENCE] => 164
+                    [BASE_CONTR_PRICE] => 9141.0526315789
+                    [CSM_FOR_CLIENT_VALUE] => 8196
+                    [TARIF] => 488
+                )
+
+            [8] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => -454.74
+                    [BASE_PRICE] => 9094.7368421053
+                    [CLIENT_BASE_PRICE] => 9095
+                    [DIFFERENCE] => -1
+                    [BASE_CONTR_PRICE] => 9094.7368421053
+                    [CSM_FOR_CLIENT_VALUE] => 8196
+                    [TARIF] => 444
+                )
+
+            [9] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 9079
+                    [CLIENT_BASE_PRICE] => 9095
+                    [DIFFERENCE] => -16
+                    [BASE_CONTR_PRICE] => 9079
+                    [CSM_FOR_CLIENT_VALUE] => 8301
+                    [TARIF] => 778
+                )
+
+            [10] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 8789
+                    [CLIENT_BASE_PRICE] => 8977
+                    [DIFFERENCE] => -188
+                    [BASE_CONTR_PRICE] => 8789
+                    [CSM_FOR_CLIENT_VALUE] => 8301
+                    [TARIF] => 488
+                )
+
+            [11] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 10857
+                    [CLIENT_BASE_PRICE] => 8782
+                    [DIFFERENCE] => 2075
+                    [BASE_CONTR_PRICE] => 10857
+                    [CSM_FOR_CLIENT_VALUE] => 8301
+                    [TARIF] => 2556
+                )
+
+            [12] => Array
+                (
+                    [CULTURE_ID] => 109
+                    [DUMP_RUB] => 0
+                    [BASE_PRICE] => 9101
+                    [CLIENT_BASE_PRICE] => 9759
+                    [DIFFERENCE] => -658
+                    [BASE_CONTR_PRICE] => 9101
+                    [CSM_FOR_CLIENT_VALUE] => 8301
+                    [TARIF] => 800
+                )
+
+        )
+
+    [OFFER_PARAMS] => Array
+        (
+            [349948] => Array
+                (
+                    [120] => Array
+                        (
+                            [ID] => 349949
+                            [NAME] => 19.08.2019 16:59:48
+                            [OFFER_ID] => 349948
+                            [QUALITY_ID] => 120
+                            [LBASE_ID] => 
+                            [BASE] => 14.5
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 349950
+                            [NAME] => 19.08.2019 16:59:48
+                            [OFFER_ID] => 349948
+                            [QUALITY_ID] => 121
+                            [LBASE_ID] => 
+                            [BASE] => 2
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 349951
+                            [NAME] => 19.08.2019 16:59:48
+                            [OFFER_ID] => 349948
+                            [QUALITY_ID] => 128
+                            [LBASE_ID] => 
+                            [BASE] => 5
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 349952
+                            [NAME] => 19.08.2019 16:59:48
+                            [OFFER_ID] => 349948
+                            [QUALITY_ID] => 129
+                            [LBASE_ID] => 
+                            [BASE] => 640
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 349953
+                            [NAME] => 19.08.2019 16:59:48
+                            [OFFER_ID] => 349948
+                            [QUALITY_ID] => 127
+                            [LBASE_ID] => 
+                            [BASE] => 11
+                        )
+
+                )
+
+            [359576] => Array
+                (
+                    [120] => Array
+                        (
+                            [ID] => 359577
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 120
+                            [LBASE_ID] => 
+                            [BASE] => 13.5
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 359578
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 121
+                            [LBASE_ID] => 
+                            [BASE] => 1.5
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 359579
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 128
+                            [LBASE_ID] => 
+                            [BASE] => 3
+                        )
+
+                    [10490] => Array
+                        (
+                            [ID] => 359580
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 10490
+                            [LBASE_ID] => 
+                            [BASE] => 0.5
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 359581
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 129
+                            [LBASE_ID] => 
+                            [BASE] => 770
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 359582
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 130
+                            [LBASE_ID] => 
+                            [BASE] => 23.5
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 359583
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 131
+                            [LBASE_ID] => 
+                            [BASE] => 90
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 359584
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 127
+                            [LBASE_ID] => 
+                            [BASE] => 13.5
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 359585
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 132
+                            [LBASE_ID] => 
+                            [BASE] => 280
+                        )
+
+                    [133] => Array
+                        (
+                            [ID] => 359586
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 133
+                            [LBASE_ID] => 
+                            [BASE] => 50
+                        )
+
+                    [134] => Array
+                        (
+                            [ID] => 359587
+                            [NAME] => 03.09.2019 12:39:20
+                            [OFFER_ID] => 359576
+                            [QUALITY_ID] => 134
+                            [LBASE_ID] => 
+                            [BASE] => 1
+                        )
+
+                )
+
+            [359590] => Array
+                (
+                    [120] => Array
+                        (
+                            [ID] => 359591
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 120
+                            [LBASE_ID] => 
+                            [BASE] => 13.5
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 359592
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 121
+                            [LBASE_ID] => 
+                            [BASE] => 2
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 359593
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 128
+                            [LBASE_ID] => 
+                            [BASE] => 5
+                        )
+
+                    [10490] => Array
+                        (
+                            [ID] => 359594
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 10490
+                            [LBASE_ID] => 
+                            [BASE] => 1
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 359595
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 129
+                            [LBASE_ID] => 
+                            [BASE] => 730
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 359596
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 130
+                            [LBASE_ID] => 
+                            [BASE] => 19.5
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 359597
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 131
+                            [LBASE_ID] => 
+                            [BASE] => 85
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 359598
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 127
+                            [LBASE_ID] => 
+                            [BASE] => 12.5
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 359599
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 132
+                            [LBASE_ID] => 
+                            [BASE] => 270
+                        )
+
+                    [133] => Array
+                        (
+                            [ID] => 359600
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 133
+                            [LBASE_ID] => 
+                            [BASE] => 50
+                        )
+
+                    [134] => Array
+                        (
+                            [ID] => 359601
+                            [NAME] => 03.09.2019 13:32:09
+                            [OFFER_ID] => 359590
+                            [QUALITY_ID] => 134
+                            [LBASE_ID] => 
+                            [BASE] => 1
+                        )
+
+                )
+
+            [359645] => Array
+                (
+                    [120] => Array
+                        (
+                            [ID] => 359646
+                            [NAME] => 03.09.2019 18:52:44
+                            [OFFER_ID] => 359645
+                            [QUALITY_ID] => 120
+                            [LBASE_ID] => 
+                            [BASE] => 15
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 359647
+                            [NAME] => 03.09.2019 18:52:44
+                            [OFFER_ID] => 359645
+                            [QUALITY_ID] => 121
+                            [LBASE_ID] => 
+                            [BASE] => 6.5
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 359648
+                            [NAME] => 03.09.2019 18:52:44
+                            [OFFER_ID] => 359645
+                            [QUALITY_ID] => 128
+                            [LBASE_ID] => 
+                            [BASE] => 5
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 359649
+                            [NAME] => 03.09.2019 18:52:44
+                            [OFFER_ID] => 359645
+                            [QUALITY_ID] => 129
+                            [LBASE_ID] => 
+                            [BASE] => 620
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 359650
+                            [NAME] => 03.09.2019 18:52:44
+                            [OFFER_ID] => 359645
+                            [QUALITY_ID] => 127
+                            [LBASE_ID] => 
+                            [BASE] => 12.5
+                        )
+
+                )
+
+        )
+
+    [UNIT_INFO] => Array
+        (
+            [117] => 
+            [118] => 
+            [119] => 
+            [120] => %
+            [121] => %
+            [122] => %
+            [123] => %
+            [124] => мгКОН/г
+            [125] => %
+            [126] => %
+            [127] => %
+            [128] => %
+            [129] => г/л
+            [130] => %
+            [131] => 
+            [132] => с
+            [133] => %
+            [134] => %
+            [135] => %
+            [136] => МДЖ/кг
+            [137] => %
+            [138] => %
+            [139] => %
+            [140] => %
+            [141] => град
+            [142] => г/кг
+            [143] => 
+            [144] => г/кг
+            [145] => %
+            [146] => %
+            [147] => %
+            [148] => %
+            [10490] => %
+        )
+
+    [LBASE_INFO] => Array
+        (
+            [96] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [100] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [97] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [103] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [208] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [209] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [109] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [108] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [105] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [106] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [112] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [113] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [114] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [212] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [115] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [98] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [101] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [102] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [11737] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [177023] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [177024] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+            [335607] => Array
+                (
+                    [117] => Array
+                        (
+                            [375] => естественный
+                            [376] => неестественный
+                        )
+
+                    [118] => Array
+                        (
+                            [378] => естественный
+                            [379] => неестественный
+                        )
+
+                    [119] => Array
+                        (
+                            [380] => отсутствует
+                            [381] => 1 степень
+                            [9941] => 2 степень
+                            [9942] => 3 степень
+                        )
+
+                )
+
+        )
+
+    [PARAMS_INFO] => Array
+        (
+            [335607] => Array
+                (
+                    [122] => Array
+                        (
+                            [ID] => 335670
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 335669
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 335668
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                    [117] => Array
+                        (
+                            [ID] => 335667
+                            [QUALITY_NAME] => Цвет
+                        )
+
+                    [118] => Array
+                        (
+                            [ID] => 335666
+                            [QUALITY_NAME] => Запах
+                        )
+
+                    [119] => Array
+                        (
+                            [ID] => 335665
+                            [QUALITY_NAME] => Зараженность вредителями
+                        )
+
+                )
+
+            [177024] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 177102
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 177101
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 177100
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [177023] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 177095
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 177094
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 177093
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [11737] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 12054
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 12053
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 12052
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [209] => Array
+                (
+                    [10490] => Array
+                        (
+                            [ID] => 10493
+                            [QUALITY_NAME] => Проросшие зерна
+                        )
+
+                    [134] => Array
+                        (
+                            [ID] => 644
+                            [QUALITY_NAME] => Повреждение клопом черепашкой
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 643
+                            [QUALITY_NAME] => Число падения (ЧП)
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 642
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 641
+                            [QUALITY_NAME] => Качество сырой клейковины (ИДК)
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 640
+                            [QUALITY_NAME] => Сырая клейковина
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 639
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 638
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 637
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 636
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [208] => Array
+                (
+                    [10490] => Array
+                        (
+                            [ID] => 10492
+                            [QUALITY_NAME] => Проросшие зерна
+                        )
+
+                    [134] => Array
+                        (
+                            [ID] => 632
+                            [QUALITY_NAME] => Повреждение клопом черепашкой
+                        )
+
+                    [133] => Array
+                        (
+                            [ID] => 631
+                            [QUALITY_NAME] => Стекловидность
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 630
+                            [QUALITY_NAME] => Число падения (ЧП)
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 629
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 628
+                            [QUALITY_NAME] => Качество сырой клейковины (ИДК)
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 627
+                            [QUALITY_NAME] => Сырая клейковина
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 626
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 625
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 624
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 623
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [103] => Array
+                (
+                    [10490] => Array
+                        (
+                            [ID] => 10491
+                            [QUALITY_NAME] => Проросшие зерна
+                        )
+
+                    [134] => Array
+                        (
+                            [ID] => 225
+                            [QUALITY_NAME] => Повреждение клопом черепашкой
+                        )
+
+                    [133] => Array
+                        (
+                            [ID] => 224
+                            [QUALITY_NAME] => Стекловидность
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 223
+                            [QUALITY_NAME] => Число падения (ЧП)
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 222
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 221
+                            [QUALITY_NAME] => Качество сырой клейковины (ИДК)
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 220
+                            [QUALITY_NAME] => Сырая клейковина
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 219
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 218
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 217
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 216
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [115] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 9996
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9995
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9994
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [212] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 9990
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9989
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9988
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [114] => Array
+                (
+                    [141] => Array
+                        (
+                            [ID] => 9984
+                            [QUALITY_NAME] => Кислотность
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 9983
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9982
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9981
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [113] => Array
+                (
+                    [141] => Array
+                        (
+                            [ID] => 9977
+                            [QUALITY_NAME] => Кислотность
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 9976
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9975
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9974
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [112] => Array
+                (
+                    [134] => Array
+                        (
+                            [ID] => 9970
+                            [QUALITY_NAME] => Повреждение клопом черепашкой
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 9969
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 9968
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9967
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9966
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [106] => Array
+                (
+                    [133] => Array
+                        (
+                            [ID] => 9962
+                            [QUALITY_NAME] => Стекловидность
+                        )
+
+                    [132] => Array
+                        (
+                            [ID] => 9961
+                            [QUALITY_NAME] => Число падения (ЧП)
+                        )
+
+                    [127] => Array
+                        (
+                            [ID] => 9960
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [131] => Array
+                        (
+                            [ID] => 9959
+                            [QUALITY_NAME] => Качество сырой клейковины (ИДК)
+                        )
+
+                    [130] => Array
+                        (
+                            [ID] => 9958
+                            [QUALITY_NAME] => Сырая клейковина
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 9957
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 9956
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9955
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9954
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [105] => Array
+                (
+                    [132] => Array
+                        (
+                            [ID] => 9950
+                            [QUALITY_NAME] => Число падения (ЧП)
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 9949
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 9948
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 9947
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 9946
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [108] => Array
+                (
+                    [128] => Array
+                        (
+                            [ID] => 658
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 657
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 656
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [109] => Array
+                (
+                    [127] => Array
+                        (
+                            [ID] => 652
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [129] => Array
+                        (
+                            [ID] => 651
+                            [QUALITY_NAME] => Натура
+                        )
+
+                    [128] => Array
+                        (
+                            [ID] => 650
+                            [QUALITY_NAME] => Зерновая примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 649
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 648
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [102] => Array
+                (
+                    [124] => Array
+                        (
+                            [ID] => 198
+                            [QUALITY_NAME] => Кислотное число (КЧМ)
+                        )
+
+                    [123] => Array
+                        (
+                            [ID] => 197
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 196
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 195
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 194
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [101] => Array
+                (
+                    [123] => Array
+                        (
+                            [ID] => 190
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 189
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 188
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 187
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [100] => Array
+                (
+                    [127] => Array
+                        (
+                            [ID] => 183
+                            [QUALITY_NAME] => Белок (протеин)
+                        )
+
+                    [123] => Array
+                        (
+                            [ID] => 181
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 180
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 179
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 178
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [98] => Array
+                (
+                    [124] => Array
+                        (
+                            [ID] => 174
+                            [QUALITY_NAME] => Кислотное число (КЧМ)
+                        )
+
+                    [123] => Array
+                        (
+                            [ID] => 173
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 172
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 171
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 170
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [97] => Array
+                (
+                    [126] => Array
+                        (
+                            [ID] => 166
+                            [QUALITY_NAME] => Глюкозинолаты
+                        )
+
+                    [125] => Array
+                        (
+                            [ID] => 165
+                            [QUALITY_NAME] => Эруковая кислота
+                        )
+
+                    [124] => Array
+                        (
+                            [ID] => 164
+                            [QUALITY_NAME] => Кислотное число (КЧМ)
+                        )
+
+                    [123] => Array
+                        (
+                            [ID] => 163
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 162
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 161
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 160
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+            [96] => Array
+                (
+                    [124] => Array
+                        (
+                            [ID] => 156
+                            [QUALITY_NAME] => Кислотное число (КЧМ)
+                        )
+
+                    [123] => Array
+                        (
+                            [ID] => 155
+                            [QUALITY_NAME] => Масличность а.с.в.
+                        )
+
+                    [122] => Array
+                        (
+                            [ID] => 154
+                            [QUALITY_NAME] => Масличная примесь
+                        )
+
+                    [121] => Array
+                        (
+                            [ID] => 153
+                            [QUALITY_NAME] => Сорная примесь
+                        )
+
+                    [120] => Array
+                        (
+                            [ID] => 152
+                            [QUALITY_NAME] => Влажность
+                        )
+
+                )
+
+        )
+
+    [USERS_NOT_LOGIN] => Array
+        (
+        )
+
+    [UF_CENTER_ID] => 2344
+)

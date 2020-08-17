@@ -1,0 +1,102 @@
+.content .tab_form.reg_form_control_tabs.agent_add_user .item
+{
+    border-bottom: none;
+}
+
+.content .tab_form.reg_form_control_tabs.agent_add_user .item span
+{
+    font-size: 14px;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: none;
+    position: relative;
+    top: -5px;
+    vertical-align: top;
+}
+
+.content form.add_form .row .row_val input.phone_msk
+{
+    width: 135px;
+}
+
+.row.inn_row .holder.row_val input[type="text"]
+{
+    width: 128px;
+    float: left;
+}
+.row.inn_row.check_success .holder.row_val input[type="text"]
+{
+    opacity: 0.6;
+    cursor: default;
+}
+
+.row.inn_row .success_ico{
+    width: 50px;
+    height: 35px;
+    float: left;
+    margin-left: 25px;
+    background: url(/local/templates/main_public/images/check_mark.png) center center no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 5px;
+    display: none;
+}
+.row.inn_row.check_success .success_ico{
+    display: block;
+}
+
+.content form.add_form .row .needItem
+{
+    color: #c10000;
+    width: 10px;
+    position: absolute;
+    top: 22px;
+    margin-left: -15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1140px)
+{
+    .content form.add_form .row .needItem
+    {
+        top: 18px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    .select2
+    {
+        width: 330px !important;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .select2
+    {
+        width: 300px !important;
+    }
+
+    .content form .row.policy_row
+    {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .content form.add_form .row .needItem
+    {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .select2
+    {
+        width: 280px !important;
+    }
+}

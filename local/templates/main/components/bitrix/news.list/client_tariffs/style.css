@@ -1,0 +1,145 @@
+.client_tariffs {
+    max-width: 860px;
+    margin-top: 24px;
+}
+.client_tariffs .group_item {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 2%;
+}
+.stuck-head .group_title,
+.client_tariffs .group_item .group_title {
+    font-size: 14px;
+    line-height: 22px;
+    height: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #b9b9b9;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.client_tariffs .group_item .rate_val {
+    height: 64px;
+    line-height: 64px;
+    font-size: 28px;
+}
+.client_tariffs .group_item .tariff_name {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.wh_price {
+    margin-bottom: 36px;
+}
+.wh_price .sub_row.txt {
+    /*width: 260px;
+    float: left;*/
+    position: relative;
+}
+.wh_price .sub_row.txt .min_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+}
+.wh_price .sub_row.txt .min_price span, .wh_price .sub_row.txt .max_price span {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+}
+.wh_price .sub_row.txt .quality-param-intro.txt {
+    margin: 0px 58px;
+}
+.sub_row.txt .quality-param-intro span {
+    cursor: pointer;
+    font-size: 40px;
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.sub_row.txt .quality-param-intro span.minus {
+    left: 0;
+    top: 20px;
+}
+.sub_row.txt .quality-param-intro span.plus {
+    left: 110px;
+    top: 20px;
+    font-family: Arial;
+}
+.wh_price .sub_row.txt .max_price {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    width: 50px;
+    left: 196px;
+    color: #b9b9b9;
+}
+.wh_price .sub_row.txt .min_price span, .wh_price .sub_row.txt .max_price span {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+}
+.stuck-head  {
+    position: fixed;
+    max-width: inherit;
+    top: 0;
+    background: #fff;
+    width: 900px;
+    opacity: 1;
+    z-index: 11;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    padding-top: 10px;
+
+}
+.stuck-head  .group_title {
+    float: left;
+    border-bottom: none;
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+.stuck-head {
+    display: none;
+}
+@media screen and (max-width: 1160px) {
+    .client_tariffs .sub_row.txt .quality-param-intro input {
+        height: 60px;
+        width: 70px;
+    }
+    .client_tariffs .sub_row.txt .quality-param-intro span.minus {
+        left: 0;
+        top: 20px;
+    }
+    .client_tariffs .sub_row.txt .quality-param-intro span.plus {
+        left: 110px;
+        top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    .stuck-head  {
+        top:45px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 680px) {
+    .client_tariffs .group_item {
+        width: 280px;
+        margin: 0 auto;
+        display: block;
+    }
+    .content form .row {
+        margin: 0 auto;
+        width: 280px;
+    }
+
+}

@@ -1,0 +1,107 @@
+.wrap-freight-tariff-update {
+    /*padding-top: 25px;*/
+}
+
+.wrap-freight-tariff-update .tariff-list {
+    padding-top: 25px;
+}
+
+.wrap-freight-tariff-update .tariff-item.row {
+    padding: 10px 0 10px 0;
+    margin-top: 0;
+}
+
+.wrap-freight-tariff-update .tariff-item.row.title {
+    padding-bottom: 0px;
+}
+.wrap-freight-tariff-update .tariff-item.row .title,
+.wrap-freight-tariff-update .tariff-item.row input {
+    display: inline-block;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.wrap-freight-tariff-update .tariff-item.row .left {
+    float: left;
+    max-width: 190px;
+}
+
+.wrap-freight-tariff-update .tariff-item.row .title {
+    width: 160px;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.wrap-freight-tariff-update .tariff-block-btn {
+    padding: 15px 0 20px 0;
+    width: 872px;
+}
+
+.wrap-freight-tariff-update .tariff-block-btn .all-save {
+    display: inline-block;
+}
+
+.wrap-freight-tariff-update .submit-btn {
+    width: 210px;
+}
+
+.wrap-freight-tariff-update .submit-btn.left {
+    float: left;
+}
+
+.wrap-freight-tariff-update .submit-btn.right {
+    float: right;
+}
+
+.wrap-freight-tariff-update .tariff-list input.btn-delete-tariff {
+    color: #f3bbbb;
+    width: 38px;
+    background: none;
+    font-size: 35px;
+    margin-top: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+}
+.wrap-freight-tariff-update .tariff-list input.btn-delete-tariff:hover {
+    color: #d11a18;
+}
+
+
+.wrap-freight-tariff-update .tariff-list .submit-btn.save-tariff,
+.wrap-freight-tariff-update .tariff-list .submit-btn.add-tariff {
+    height: 51px;
+    display: none;
+}
+
+.wrap-freight-tariff-update .error-msg {
+    padding-top: 15px;
+}
+
+.wrap-freight-tariff-update label.error {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+}
+
+.wrap-freight-tariff-update .tariff-list .new-tariffs::before {
+    content: "";
+    display: block;
+    /*width: 1100px;*/
+    background-color: #e1e1e1;
+    height: 3px;
+}
+
+.content a.renew {
+    background: #47a1f0;
+    color: #FFFFFF;
+    padding: 24px;
+    margin: 0;
+    display: inline-block;
+}
+.content a.renew:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+    Array(
+        "Новые",
+        "/partner/center/?read=0",
+        Array(),
+        Array('READ'=>'N'),
+        ""
+    ),
+    Array(
+        "Прочитанные",
+        "/partner/center/?read=1",
+        Array(),
+        Array('READ'=>'Y'),
+        ""
+    ),
+    Array(
+        "Настройки",
+        "/partner/center/settings/",
+        Array(),
+        Array(),
+        ""
+    )
+);
+?>

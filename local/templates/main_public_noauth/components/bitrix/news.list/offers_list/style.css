@@ -1,0 +1,864 @@
+.list_page_rows .line_area.yes .line_inner,
+.list_page_rows .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows .line_area.no .line_inner,
+.list_page_rows .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+.req_total .hidden,
+.for_requests .hidden {
+    display: none;
+}
+
+.r_price_block
+{
+    margin-bottom: 10px;
+}
+
+.copy-left
+{
+    font-size: 14px;
+    color: #1a64bf;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area .copy-textallowed
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.public_form .line_area .submit-btn
+{
+    background: #47a1f0;
+}
+.public_form .line_area .submit-btn:hover
+{
+    background: #309cfa;
+}
+
+.list_page_rows .line_area .line_additional
+{
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    border-left: 10px solid #475663;
+    background: #FFF;
+    display: block;
+    margin: 0 45px 35px 45px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list_page_rows {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-row .row_head
+{
+    float: left;
+}
+.flex-row .row_val
+{
+    float: left;
+}
+.row .flex-row .row_head
+{
+    margin-top: 7px;
+    white-space: nowrap;
+    width: 165px;
+}
+.row.first_row .flex-row .row_head
+{
+    margin-top: 33px;
+    width: 130px;
+}
+.row.first_row .flex-row .row_val
+{
+    margin-top: 10px;
+}
+.flex-row .min_max_val{
+    position: relative;
+    margin-left: 96px;
+}
+.rowed {
+    display: inline-block;
+    padding: 0;
+    background: #47a1f0;
+    color: #FFF;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 56px;
+    width: 350px;
+    line-height: 56px;
+    text-align: center;
+}
+.rowed:hover {
+    background: #309cfa;
+}
+.req_total .hide-more-request,
+.req_total .show-more-requests,
+.for_requests .hide-more-request,
+.for_requests .show-more-requests {
+    margin-left: 50px;
+    font-size: 14px;
+    color: #478bb7;
+    cursor: pointer;
+    padding-top: 15px;
+    display: inline-block;
+    border-bottom: 1px dashed;
+}
+
+.refinement_text
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+{
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 21px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    overflow: hidden;
+    border: 1px solid #EEE;
+}
+
+.req_total .hide-more-request,
+.for_requests .hide-more-request{
+    display: none;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+.deal_link {
+    display: inline-block;
+    margin-right: 24px;
+}
+.deal_volume {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 90px;
+    text-align: right;
+}
+.deal_status {
+    display: inline-block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area
+{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active
+{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area .empty_graph{
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 0 15px;
+    line-height: 400px;
+    height: 400px;
+    text-align: center;
+}
+/*counter_reques*/
+.ton_pos {
+    position: absolute;
+    top: 10px;
+    left: 205px;
+    display: inline-block;
+}
+.ton_pos.rub {
+    font-size: 12px;
+}
+.content .min_max_val input[type="text"]
+{
+    border-left: none;
+    padding: 8px;
+    float: left;
+    width: 70px;
+    margin-left: 15px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.partner_price_part
+{
+    position: absolute;
+    top: 7px;
+    right: -95px;
+    width: 90px;
+    text-align: left;
+    white-space: nowrap;
+    display: none;
+}
+.partner_price_part.active
+{
+    display: block;
+}
+.content .counter_request_additional_data input[name="volume"],
+.content .counter_request_additional_data input[name="serv_price"]
+{
+    border-left: none;
+    padding: 8px;
+    width: 70px;
+    margin-left: 126px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.content .counter_request_additional_data input.submit-btn
+{
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    white-space: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price,
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+    float: left;
+    padding-top: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active,
+.highcharts-container,
+.highcharts-container svg
+{
+    overflow: visible !important;
+}
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price span,
+.content .counter_request_additional_data .min_max_val .max_price span
+{
+    display: block;
+    text-align: center;
+}
+.content .counter_request_additional_data .min_max_val .minus.minus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    /*display: block;*/
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+    display: none !important;
+}
+.content .counter_request_additional_data .min_max_val .plus.plus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    /*display: block;*/
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+    display: none !important;
+}
+.content .counter_request_additional_data .success_message
+{
+    color: #559955;
+}
+/*end counter_reques*/
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+{
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    border-bottom: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab.active
+{
+    opacity: 1;
+    background: #EEE;
+    cursor: default;
+    border-color: #FFF;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph .graph_draw{
+    background: #FFF;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.content .line_additional .row.first_row
+{
+    margin-top: 10px;
+}
+
+.content .line_additional .row .row_val
+{
+    position: relative;
+}
+
+.add_limit_line
+{
+    display: none;
+}
+
+.add_limit_line.active
+{
+    margin-top: 15px;
+    display: block;
+}
+
+.add_limit_line .result_message
+{
+    color: #5CB100;
+    margin-bottom: 5px;
+}
+
+.additional_href_data
+{
+    display: none;
+}
+.additional_href_data.active
+{
+    display: block;
+}
+
+.content a.add_blue_button:link,
+.content a.add_blue_button:active,
+.content a.add_blue_button:visited,
+.content a.add_blue_button:hover
+{
+    display: none;
+}
+.content a.add_blue_button.active:link,
+.content a.add_blue_button.active:active,
+.content a.add_blue_button.active:visited,
+.content a.add_blue_button.active:hover
+{
+    display: block;
+}
+
+.error_msg
+{
+    position: absolute;
+    top: 10px;
+    color: #f53548;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress.no_pad
+{
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val.counter_data .val_adress
+{
+    padding-top: 10px;
+}
+
+.cancel_counter_offer_area
+{
+    margin-top: 15px;
+}
+
+.cancel_counter_offer_area a.submit-btn
+{
+    float: none;
+    bottom: 0;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+{
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 21px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.answered:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/local/templates/main/images/svg/undo2.svg) center center no-repeat;
+    background-size: contain;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 5px;
+}
+
+.for_requests .adress
+{
+    /*color: #1a64bf;
+    cursor: pointer;*/
+}
+
+.for_requests .adress:hover
+{
+    text-decoration: none;
+}
+
+.for_requests .deal_link
+{
+    display: block;
+    float: left;
+    margin-right: 0;
+}
+
+.for_requests .deal_link a:link,
+.for_requests .deal_link a:active,
+.for_requests .deal_link a:visited,
+.for_requests .deal_link a:hover
+{
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+.for_requests .deal_volume
+{
+    width: 75px;
+    min-width: 75px;
+    margin-left: 15px;
+    margin-right: 0;
+    float: left;
+}
+
+.for_requests .road_len
+{
+    width: 95px;
+    margin-left: 15px;
+    float: left;
+}
+
+.public_form .list_page_rows .line_area .line_additional .prop_area.counter_data
+{
+    padding-top: 10px;
+}
+
+.content .line_additional .row
+{
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1160px)
+{
+    /*counter_reques*/
+
+    .content .min_max_val input[type="text"] {
+        height: 40px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg,
+    .content .counter_request_additional_data .min_max_val .plus.plus_bg {
+        top: 10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .min_price,
+    .content .counter_request_additional_data .min_max_val .max_price {
+        padding-top: 10px;
+    }
+    .content .counter_request_additional_data input.submit-btn {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+    /*end counter_reques*/
+    .answered:before {
+        margin-left: 5px;
+    }
+
+    .list_page_rows.farmer_offer.requests .line_area .line_inner .name,
+    .list_page_rows.farmer_offer .line_area .line_inner .name {
+        padding-left: 25px;
+    }
+
+    .list_page_rows.farmer_offer .line_area .line_inner .warhouse_name
+    {
+        padding-left: 25px;
+    }
+
+    div.content input[type="text"]
+    {
+        padding: 12px 10px;
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .rowed
+    {
+        width: 300px;
+        height: 50px;
+        line-height: 52px;
+    }
+
+    .flex-row .min_max_val
+    {
+        margin-left: 72px;
+    }
+
+    .content .counter_request_additional_data input[name="volume"],
+    .content .counter_request_additional_data input[name="serv_price"]
+    {
+        margin-left: 102px;
+    }
+
+    .ton_pos
+    {
+        left: 180px;
+    }
+
+    .row.first_row .flex-row .row_head
+    {
+        margin-top: 9px;
+    }
+
+    .row.first_row .flex-row .row_head
+    {
+        margin-top: 19px;
+    }
+}
+
+@media screen and (max-width: 980px)
+{
+    div#page_body {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    .for_requests .deal_link a:link,
+    .for_requests .deal_link a:active,
+    .for_requests .deal_link a:visited,
+    .for_requests .deal_link a:hover
+    {
+        width: 150px;
+    }
+    .r_price_block {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .rowed
+    {
+        display: block;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .flex-row .min_max_val
+    {
+        margin-left: 10px;
+    }
+
+    .content .counter_request_additional_data input[name="volume"],
+    .content .counter_request_additional_data input[name="serv_price"]
+    {
+        margin-left: 40px;
+    }
+
+    .ton_pos
+    {
+        left: 120px;
+    }
+
+    .row.first_row .flex-row .row_val
+    {
+        margin-top: 20px;
+    }
+
+    .row.first_row .flex-row .row_head
+    {
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn
+    {
+        margin-right: 15px;
+    }
+    /*end counter_reques*/
+
+    .deal_volume
+    {
+        min-width: 45px;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val .basis_price_table.basis_price_table
+    {
+        margin-right: 0;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+
+    div.list_page_rows
+    {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .public_form .list_page_rows .line_area .line_additional .prop_area
+    {
+        padding: 25px 15px;
+    }
+
+    .content .line_additional .row .row_val.min_max_val
+    {
+    }
+
+    .content .counter_request_additional_data input[name="volume"],
+    .content .counter_request_additional_data input[name="serv_price"]
+    {
+        margin-left: 40px;
+    }
+
+    .ton_pos
+    {
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    div.content input[type="text"]
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px)
+{
+    .content .counter_request_additional_data input[name="volume"],
+    .content .counter_request_additional_data input[name="serv_price"]
+    {
+        margin-left: 30px;
+    }
+
+    .content .line_additional .row .row_val
+    {
+        margin-left: 0;
+    }
+
+    div.public_form
+    {
+        padding: 20px 0 10px;
+    }
+
+    .list_page_rows .line_area .line_additional {
+        padding-left: 5px;
+    }
+
+    .ton_pos
+    {
+        left: 110px;
+    }
+}
+
+@media screen and (max-width: 510px)
+{
+    .list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+    {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn {
+        width: 230px;
+    }
+
+    /*end counter_reques*/
+
+    .deal_volume
+    {
+        margin-right: 0;
+    }
+
+    .for_requests .deal_volume
+    {
+        display: none;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+
+    .content .min_max_val input[type="text"],
+    .content .counter_request_additional_data .min_max_val .max_price
+    {
+        margin-left: 10px;
+    }
+
+    .rowed
+    {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .flex-row .min_max_val {
+        margin-right: auto;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+    {
+        width: 60px;
+    }
+
+    .counter_data .flex-row
+    {
+        display: inherit !important;
+        justify-content: inherit !important;
+        margin-top: 10px;
+    }
+
+    .content .line_additional .row .row_val.min_max_val
+    {
+        margin-left: 21px;
+        float: none;
+    }
+
+    .content .counter_request_additional_data input[name="volume"],
+    .content .counter_request_additional_data input[name="serv_price"]
+    {
+        margin-left: 81px;
+    }
+
+    .ton_pos
+    {
+        left: 160px;
+    }
+
+    .content .line_additional .row .row_head
+    {
+        float: none;
+    }
+
+    .content .line_additional .row .row_val
+    {
+        margin-top: 10px;
+        float: none;
+    }
+    .partner_price_part
+    {
+        right: auto;
+        left: 160px;
+    }
+}
+@media screen and (max-width: 410px)
+{
+    /*counter_reques*/
+    .counter_request_additional_data input[name="volume"][type="text"] {
+        /*width: 210px;*/
+    }
+    /*end counter_reques*/
+}
+
+@media screen and (max-width: 400px)
+{
+    div#page_body
+    {
+        padding: 15px;
+    }
+
+    .public_form .list_page_rows .line_area .line_additional .prop_area,
+    .list_page_rows .line_area .line_additional .prop_area.adress_val .val_adress
+    {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 390px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data .row_val.min_max_val
+    {
+        /*margin-left: -30px;
+        margin-right: -30px;*/
+    }
+    /*end counter_reques*/
+}
+
+@media screen and (max-width: 380px)
+{
+    /*counter_reques*/
+    .ton_pos {
+        /*display: none;*/
+    }
+    /*end counter_reques*/
+
+    .for_requests .road_len
+    {
+        margin-right: -15px;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.with_graph.show .val_adress
+    {
+        margin-left: -5px;
+        margin-right: -10px;
+    }
+}
+
+@media screen and (max-width: 330px)
+{
+    .public_form .list_page_rows .line_area .line_additional .prop_area
+    {
+        padding-left: 5px;
+    }
+}
+
+.toggle-header {
+    color: #478bb7;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+    display: inline-block;
+}

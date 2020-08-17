@@ -1,0 +1,156 @@
+.list_page_rows.requests .line_area.yes .line_inner,
+.list_page_rows.requests .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows.requests .line_area.no .line_inner,
+.list_page_rows.requests .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+a.submit-btn.req_prolongation{
+    margin-bottom: 51px;
+}
+.clear.with_line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    border: 1px solid #ebebeb;
+}
+.anchor_href:link,
+.anchor_href:active,
+.anchor_href:visited,
+.anchor_href:hover
+{
+    display: block;
+    opacity: 0;
+    height: 0;
+}
+.req-info-dump-table {
+    margin: 16px 0 0 24px;
+}
+.req-info-dump-title {
+    float: left;
+}
+.req-info-dump-val {
+    float: right;
+}
+.req-info-dump-val span {
+    min-width: 40px;
+    display: inline-block;
+    height: 24px;
+    text-align: right;
+}
+.deal_link {
+    display: inline-block;
+    margin-right: 24px;
+}
+.deal_volume {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 100px;
+    text-align: right;
+}
+.deal_status {
+    display: inline-block;
+}
+.content .row.err_text {
+    margin-top: 24px;
+}
+
+.additional_href_data
+{
+    display: none;
+}
+.additional_href_data.active
+{
+    display: block;
+}
+
+.content a.add_blue_button:link,
+.content a.add_blue_button:active,
+.content a.add_blue_button:visited,
+.content a.add_blue_button:hover
+{
+    display: none;
+}
+.content a.add_blue_button.active:link,
+.content a.add_blue_button.active:active,
+.content a.add_blue_button.active:visited,
+.content a.add_blue_button.active:hover
+{
+    display: block;
+}
+
+.add_limit_line
+{
+    display: none;
+}
+
+.add_limit_line.active
+{
+    margin-top: 15px;
+    display: block;
+}
+
+.add_limit_line .result_message
+{
+    color: #5CB100;
+    margin-bottom: 5px;
+}
+
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+#load_mes {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    width: 300px;
+    margin-left: -150px;
+}
+#load_mes input {
+    background: #47a1f0;
+    font-size: 14px;
+    border: none;
+    box-sizing: border-box;
+    padding: 8px 28px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin: 16px auto 0;
+    display: block;
+    cursor: pointer;
+}
+#load_mes input:hover {
+    background: #309cfa;
+}
+#load_mes div {
+    text-align: center;
+    line-height: 18px;
+}

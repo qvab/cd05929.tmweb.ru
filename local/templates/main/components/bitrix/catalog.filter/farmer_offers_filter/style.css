@@ -1,0 +1,10 @@
+#farmer_offers_filter .wrap-select,
+#farmer_offers_filter .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+#farmer_offers_filter .wrap-select select,
+#farmer_offers_filter .wrap-btn input {
+    width: 300px;
+}

@@ -1,0 +1,5 @@
+.line_area.is_linked .additional_submits.for_unlinked,
+.line_area.not_linked .additional_submits.for_linked
+{
+    display: none;
+}

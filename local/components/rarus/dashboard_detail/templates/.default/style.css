@@ -1,0 +1,12 @@
+.list_page_rows.requests.dashboard .line_area .line_inner,
+.list_page_rows.requests.dashboard .line_area .line_inner:hover
+{
+    border-left: 10px solid #4d82b0;
+    cursor: default;
+}
+
+.folder_header{
+    margin-top: 80px;
+    font-size: 16px;
+    font-weight: bold;
+}

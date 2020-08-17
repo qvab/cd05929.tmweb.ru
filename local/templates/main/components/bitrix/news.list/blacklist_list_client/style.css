@@ -1,0 +1,248 @@
+.list_page_rows.requests .line_area.open .line_inner,
+.list_page_rows.requests .line_area.open .line_inner:hover {
+    border-left: 10px solid #4d82b0;
+}
+.list_page_rows.requests .line_area.cancel .line_inner,
+.list_page_rows.requests .line_area.cancel .line_inner:hover {
+    border-left: 10px solid #2b323d;
+}
+
+.fblock_cl,
+.fbtn_submit {
+    width: 300px;
+    float: left;
+    margin-right: 24px;
+}
+
+.fblock_wh,
+.fbtn_cancel {
+    width: 300px;
+    float: left;
+}
+
+.fbtn_submit input {
+    width: 100%;
+}
+
+.message_area .message 
+{
+    color: #559955;
+}
+.message_area .message.err
+{
+    color: #f53548;
+}
+
+.cancel_filter:link,
+.cancel_filter:active,
+.cancel_filter:visited
+{
+    background: #47a1f0;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.cancel_filter:hover
+{
+    background: #309cfa;
+    text-decoration: none;
+    padding: 14px;
+    height: 56px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+
+.content form .fblock_cl select,
+.content form .fblock_fm select
+{
+    width: 300px;
+}
+
+.tab_form #deals_filter .wrap-select,
+.tab_form #deals_filter .wrap-btn
+{
+    padding-bottom: 0;
+}
+
+.list_page_rows.requests .line_area .line_inner div.name {
+    padding-left: 15px;
+    width: 70%;
+}
+
+.list_page_rows.requests .line_area .line_inner div.id_date
+{
+    padding-left: 15px;
+    width: 25%;
+}
+
+.line_additional .del_bl {
+    float: right;
+    width: 220px;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.bl_del {
+    padding: 10px 30px;
+}
+
+.opening_limit_ended
+{
+    margin-bottom: 5px;
+}
+
+.opening_limit_ended .result_message,
+.opening_limit_available .result_message
+{
+    color: #5CB100;
+    margin-bottom:5px;
+}
+
+.opening_limit_available
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.opening_limit_available .limit_val
+{
+    color: #5CB100;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.opening_limit_ended .limit_val_no
+{
+    color: red;
+    font-size: 14px!important;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1160px)
+{
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+
+    .list_page_rows.requests .line_area .line_inner div.name
+    {
+        padding-left: 15px;
+        width: 70%;
+    }
+
+    .list_page_rows.requests .line_area .line_inner .wh_name
+    {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 699px)
+{
+    .tab_form #deals_filter .wrap-select,
+    .tab_form #deals_filter .wrap-btn
+    {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    .list_page_rows .line_area .line_inner .id_date
+    {
+        display: block!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+
+}
+
+@media screen and (max-width: 350px)
+{
+    .fbtn_submit input,
+    .cancel_filter:link,
+    .cancel_filter:active,
+    .cancel_filter:visited,
+    .cancel_filter:hover
+    {
+        max-width: 280px;
+    }
+
+    .tab_form #deals_filter .wrap-btn input
+    {
+        width: 280px;
+    }
+}
+
+
+/**
+detail
+ */
+.deal_detail {
+    border: none;
+
+    padding: 30px 0 0 24px;
+}
+.deal_detail .line_area {
+    margin-bottom: 32px;
+}
+.deal_detail .line_area .line_block {
+    float: left;
+    width: 350px;
+    margin-right: 15px;
+}
+.deal_detail .line_area .line_block .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.deal_detail .line_area .line_block .text {
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1060px)
+{
+    .deal_detail .line_area .line_block
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .deal_detail .line_area .line_block
+    {
+        width: auto;
+        float: none;
+    }
+
+    .deal_detail .line_area .line_block .title
+    {
+        margin-top: 40px;
+    }
+}

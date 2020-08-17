@@ -1,0 +1,93 @@
+/* Фильтр */
+.wrap-report .title {
+    padding-top: 25px;
+}
+
+.wrap-report .wrap-filter .wrap-select,
+.wrap-report .wrap-filter .wrap-input,
+.wrap-report .wrap-filter .wrap-btn {
+    float: left;
+    padding-right: 20px;
+}
+
+.wrap-report .wrap-filter .wrap-select select,
+.wrap-report .wrap-filter .wrap-btn input {
+    width: 300px;
+}
+
+.wrap-report .wrap-filter .wrap-input input {
+    width: 240px;
+}
+
+
+/* Отчет */
+.wrap-report .wrap-data {
+    padding-top: 25px;
+    overflow-x: auto;
+}
+
+.wrap-report .wrap-data table th {
+    border: 1px solid  #d4d4d4;
+    padding: 10px;
+    background-color: #c7fbc7;
+}
+
+.wrap-report .wrap-data table td {
+    border: 1px solid  #e1e1e1;
+    padding: 3px 5px;
+}
+
+.wrap-report .wrap-data table {
+    width: 150%;
+}
+
+.wrap-report .wrap-data table .doc-name {
+    width: 190px;
+    text-align: center;
+}
+
+.wrap-report .wrap-data table td.doc-name {
+    text-align: center;
+}
+
+.wrap-report .wrap-data table th.company-name {
+    width: 300px;
+}
+
+.wrap-report .wrap-data table .sum{
+    width: 150px;
+    text-align: center;
+}
+.wrap-report .wrap-data table td.sum{
+    text-align: right;
+}
+
+.wrap-report .wrap-data table .percent-payment {
+    width: 50px;
+    text-align: center;
+}
+
+.wrap-report .wrap-data table td .no-val {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1160px) {
+
+    .wrap-report .wrap-filter .wrap-input input {
+        width: 270px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .wrap-report .wrap-filter .wrap-input,
+    .wrap-report .wrap-filter .wrap-select,
+    .wrap-report .wrap-filter .wrap-btn input {
+        margin-top: 10px;
+    }
+
+    .wrap-report .wrap-filter .row {
+        margin-top: 5px;
+    }
+}

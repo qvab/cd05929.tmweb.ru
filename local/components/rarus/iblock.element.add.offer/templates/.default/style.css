@@ -1,0 +1,10 @@
+.offer_add .request-block1 .no-warehouse {
+    position: relative;
+    bottom: 50px;
+    color: red;
+}
+
+.content form .form_line_error.limits
+{
+    margin-bottom: 15px;
+}

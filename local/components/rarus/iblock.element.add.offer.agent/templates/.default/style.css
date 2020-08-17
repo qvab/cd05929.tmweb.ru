@@ -1,0 +1,9 @@
+.content form .form_line_error.limit
+{
+    display: none;
+}
+.content form .form_line_error.limit.active
+{
+    display: block;
+    margin-bottom: 15px;
+}

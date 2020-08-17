@@ -1,0 +1,226 @@
+.list_page_rows.requests .line_area.yes .line_inner,
+.list_page_rows.requests .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows.requests .line_area.no .line_inner,
+.list_page_rows.requests .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+a.submit-btn.req_prolongation{
+    margin-bottom: 51px;
+}
+.clear.with_line{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    border: 1px solid #ebebeb;
+}
+.list_page_rows .line_area .line_additional .prop_area.counter_offer_agent_href
+{
+    text-align: right;
+}
+
+.additional_href_data
+{
+    display: none;
+}
+.additional_href_data.active
+{
+    display: block;
+}
+
+.content a.add_blue_button:link,
+.content a.add_blue_button:active,
+.content a.add_blue_button:visited,
+.content a.add_blue_button:hover
+{
+    display: none;
+}
+.content a.add_blue_button.active:link,
+.content a.add_blue_button.active:active,
+.content a.add_blue_button.active:visited,
+.content a.add_blue_button.active:hover
+{
+    display: block;
+}
+
+.add_limit_end
+{
+    display: none;
+    margin-top: 30px;
+}
+
+.add_limit_end.active
+{
+    display: block;
+}
+
+
+.agent_counter_href_copy
+{
+    position: relative;
+    width: 350px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.content .prop_area.counter_offer_agent_href .success_copy{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    float: left;
+    background: url(/local/templates/main_public/images/check_mark_white.png) center center no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+    margin-left: 25px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+.content .prop_area.counter_offer_agent_href .success_copy.disable{
+    opacity: 0;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.counter_offer_agent_href .submit-btn.make_by_agent_counter_href
+{
+    height: auto;
+    padding: 20px 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 18px;
+}
+.anchor_href:link,
+.anchor_href:active,
+.anchor_href:visited,
+.anchor_href:hover
+{
+    display: block;
+    opacity: 0;
+    height: 0;
+}
+.req-info-dump-table {
+    margin: 16px 0 0 24px;
+}
+.req-info-dump-title {
+    float: left;
+}
+.req-info-dump-val {
+    float: right;
+}
+.req-info-dump-val span {
+    min-width: 40px;
+    display: inline-block;
+    height: 24px;
+    text-align: right;
+}
+.list_page_rows .line_area .line_inner .name .client_name{
+    font-weight: normal;
+}
+.deal_link {
+    display: inline-block;
+    margin-right: 24px;
+}
+.deal_volume {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 100px;
+    text-align: right;
+}
+.deal_status {
+    display: inline-block;
+}
+.content .row.err_text {
+    margin-top: 24px;
+}
+
+.no_deal_rights {
+    color: #ff0000;
+}
+.no_deal_rights a:link,
+.no_deal_rights a:active,
+.no_deal_rights a:visited {
+    color: #ff0000;
+    text-decoration: underline;
+}
+.no_deal_rights a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+#load_mes {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    width: 300px;
+    margin-left: -150px;
+}
+#load_mes input {
+    background: #47a1f0;
+    font-size: 14px;
+    border: none;
+    box-sizing: border-box;
+    padding: 8px 28px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin: 16px auto 0;
+    display: block;
+    cursor: pointer;
+}
+#load_mes input:hover {
+    background: #309cfa;
+}
+#load_mes div {
+    text-align: center;
+    line-height: 18px;
+}
+.agent_counter_href_value
+{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-left: 10px solid #475663;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background: #FFF;
+    margin: 20px 0;
+    word-break: break-all;
+}
+
+.agent_counter_href_success_text
+{
+    position: relative;
+    top: 14px;
+}
+
+@media screen and (max-width: 1160px) {
+    .list_page_rows .line_area .line_additional .prop_area.counter_offer_agent_href .submit-btn.make_by_agent_counter_href
+    {
+        padding: 16px 14px;
+    }
+
+    .agent_counter_href_copy
+    {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .agent_counter_href_copy
+    {
+        width: 170px;
+    }
+}

@@ -1,0 +1,192 @@
+#client_requests_filter .wrap-select,
+#client_requests_filter .wrap-btn
+{
+    float: left;
+    padding-right: 20px;
+}
+
+#client_requests_filter .wrap-select
+{
+    padding-top: 20px;
+}
+
+#client_requests_filter .wrap-select select,
+#client_requests_filter .wrap-btn input
+{
+    width: 300px;
+}
+
+.tab_form.client_counter_requests .graph_top_tab
+{
+    margin-top: 0;
+}
+.tab_form.client_counter_requests .graph_top_tab.active
+{
+    margin-top: 30px;
+}
+
+.content form#client_requests_filter .row.second_line
+{
+    margin-top: 0;
+}
+
+.tab_form.client_counter_requests .graph_area_tab
+{
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    border-bottom: none;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 12px;
+}
+.tab_form.client_counter_requests .graph_area_tab.active
+{
+    opacity: 1;
+    background: #FFF;
+    cursor: default;
+    border-color: #FFF;
+}
+
+#draw_object_block {
+    z-index: 12;
+}
+
+#draw_object
+{
+    /*padding: 10px;*/
+    overflow: visible;
+    display: none;
+    max-width: 900px;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+#draw_object.show
+{
+    display: block;
+}
+.highcharts-container {
+    overflow: visible !important;
+
+}
+.highcharts-container svg {
+    overflow: visible !important;
+}
+#draw_object .graph_area
+{
+    display: none;
+    background: #fff;
+    overflow: visible!important;
+}
+#draw_object .graph_area.active
+{
+    display: block;
+}
+
+#draw_object .nds_change_area
+{
+    position: absolute;
+    top: 43px;
+    left: 69px;
+    z-index: 1;
+}
+
+#draw_object .graph_area .empty_graph
+{
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 0 15px;
+    line-height: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.show_hide_counter_graph_container
+{
+    padding-top: 18px;
+    float: left;
+    min-width: 300px;
+    text-align: center;
+    display: none;
+}
+.show_hide_counter_graph_container.active
+{
+    display: block;
+}
+
+.show_hide_counter_graph
+{
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #478bb7;
+}
+.show_hide_counter_graph:hover
+{
+    text-decoration: none;
+    border-bottom: 1px dashed #478bb7;
+}
+
+.select2
+{
+    width: 300px !important;
+}
+
+@media screen and (max-width: 740px)
+{
+    .show_hide_counter_graph_container
+    {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    #client_requests_filter .wrap-select
+    {
+        padding-top: 0;
+    }
+
+    .content form .row.submit-row
+    {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 699px)
+{
+    .show_hide_counter_graph_container
+    {
+        clear: both;
+        padding-top: 4px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 410px)
+{
+    .tab_form.client_counter_requests .graph_area_tab
+    {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    #client_requests_filter .wrap-btn input
+    {
+        width: 280px;
+    }
+
+    .select2
+    {
+        width: 280px !important;
+    }
+}

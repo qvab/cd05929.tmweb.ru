@@ -1,0 +1,503 @@
+.list_page_rows .line_area.yes .line_inner,
+.list_page_rows .line_area.yes .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #7ed321;
+}
+.list_page_rows .line_area.no .line_inner,
+.list_page_rows .line_area.no .line_inner:hover {
+    padding-left: 0;
+    border-left: 10px solid #2b323d;
+}
+.req_total .hidden,
+.for_requests .hidden {
+    display: none;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-row .min_max_val{
+    margin-left: 60px;
+}
+.rowed {
+    text-align: center;
+    width: 264px;
+}
+.req_total .hide-more-request,
+.req_total .show-more-requests,
+.for_requests .hide-more-request,
+.for_requests .show-more-requests {
+    margin-left: 50px;
+    font-size: 14px;
+    color: #478bb7;
+    cursor: pointer;
+    padding-top: 15px;
+    display: inline-block;
+    border-bottom: 1px dashed;
+}
+
+
+.req_total .hide-more-request,
+.for_requests .hide-more-request{
+    display: none;
+}
+a.submit-btn {
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    color: #FFF !important;
+    text-align: center;
+    line-height: 28px;
+}
+a.submit-btn:hover {
+    text-decoration: none;
+}
+.deal_link {
+    display: inline-block;
+    margin-right: 24px;
+}
+.deal_volume {
+    display: inline-block;
+    margin-right: 24px;
+    min-width: 90px;
+    text-align: right;
+}
+.deal_status {
+    display: inline-block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area
+{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active
+{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area .empty_graph{
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 0 15px;
+    line-height: 400px;
+    height: 400px;
+    text-align: center;
+}
+/*counter_reques*/
+.ton_pos {
+    position: absolute;
+    top: 18px;
+    left: 450px;
+    display: inline-block;
+}
+.ton_pos.rub {
+    font-size: 12px;
+}
+.content .min_max_val input[type="text"]
+{
+    border-left: none;
+    padding: 8px;
+    float: left;
+    width: 70px;
+    margin-left: 15px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.content .counter_request_additional_data input.submit-btn
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    white-space: normal;
+    margin-top: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price,
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    text-align: center;
+    width: 50px;
+    color: #b9b9b9;
+    float: left;
+    padding-top: 24px;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area.active,
+.highcharts-container,
+.highcharts-container svg
+{
+    overflow: visible !important;
+}
+.content .counter_request_additional_data .min_max_val .max_price
+{
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .min_max_val .min_price span,
+.content .counter_request_additional_data .min_max_val .max_price span
+{
+    display: block;
+    text-align: center;
+}
+.content .counter_request_additional_data .min_max_val .minus.minus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .min_max_val .plus.plus_bg
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    float: left;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+}
+.content .counter_request_additional_data .success_message
+{
+    color: #559955;
+}
+/*end counter_reques*/
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+{
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    border-bottom: none;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab.active
+{
+    opacity: 1;
+    background: #FFF;
+    cursor: default;
+    border-color: #FFF;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph{
+    display: none;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph.show{
+    display: block;
+}
+.list_page_rows .line_area .line_additional .prop_area.with_graph .graph_draw{
+    background: #FFF;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.add_limit_line
+{
+    display: none;
+}
+
+.add_limit_line.active
+{
+    margin-top: 15px;
+    display: block;
+}
+
+.add_limit_line .result_message
+{
+    color: #5CB100;
+    margin-bottom: 5px;
+}
+
+.additional_href_data
+{
+    display: none;
+}
+.additional_href_data.active
+{
+    display: block;
+}
+
+.content a.add_blue_button:link,
+.content a.add_blue_button:active,
+.content a.add_blue_button:visited,
+.content a.add_blue_button:hover
+{
+    display: none;
+}
+.content a.add_blue_button.active:link,
+.content a.add_blue_button.active:active,
+.content a.add_blue_button.active:visited,
+.content a.add_blue_button.active:hover
+{
+    display: block;
+}
+
+.error_msg
+{
+    position: absolute;
+    top: -17px;
+    color: #f53548;
+}
+
+.list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+{
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 21px;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.answered:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(/local/templates/main/images/svg/undo2.svg) center center no-repeat;
+    background-size: contain;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 5px;
+}
+
+.for_requests .adress
+{
+    /*color: #1a64bf;
+    cursor: pointer;*/
+}
+
+.for_requests .adress:hover
+{
+    text-decoration: none;
+}
+
+.for_requests .deal_link
+{
+    display: block;
+    float: left;
+    margin-right: 0;
+}
+
+.for_requests .deal_link a:link,
+.for_requests .deal_link a:active,
+.for_requests .deal_link a:visited,
+.for_requests .deal_link a:hover
+{
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+.for_requests .deal_volume
+{
+    width: 75px;
+    min-width: 75px;
+    margin-left: 15px;
+    margin-right: 0;
+    float: left;
+}
+
+.for_requests .road_len
+{
+    width: 95px;
+    margin-left: 15px;
+    float: left;
+}
+
+@media screen and (max-width: 1160px)
+{
+    /*counter_reques*/
+    .ton_pos {
+        left: 435px;
+        top: 10px;
+    }
+
+    .content .min_max_val input[type="text"] {
+        height: 40px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg,
+    .content .counter_request_additional_data .min_max_val .plus.plus_bg {
+        top: 10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .min_price,
+    .content .counter_request_additional_data .min_max_val .max_price {
+        padding-top: 10px;
+    }
+    .content .counter_request_additional_data input.submit-btn {
+        padding: 10px;
+        width: 300px;
+        height: 50px;
+    }
+    /*end counter_reques*/
+    .answered:before {
+        margin-left: 5px;
+    }
+
+    .list_page_rows.farmer_offer.requests .line_area .line_inner .name,
+    .list_page_rows.farmer_offer .line_area .line_inner .name {
+        padding-left: 25px;
+    }
+
+    .list_page_rows.farmer_offer .line_area .line_inner .warhouse_name
+    {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    .for_requests .deal_link a:link,
+    .for_requests .deal_link a:active,
+    .for_requests .deal_link a:visited,
+    .for_requests .deal_link a:hover
+    {
+        width: 150px;
+    }
+    .r_price_block {
+        width: 100% !important;
+    }
+    .flex-row {
+        justify-content: space-between;
+    }
+    .flex-row .min_max_val {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn
+    {
+        margin-right: 15px;
+    }
+    /*end counter_reques*/
+
+    .deal_volume
+    {
+        min-width: 45px;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val .basis_price_table.basis_price_table
+    {
+        margin-right: 0;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data input.submit-btn {
+        width: 230px;
+    }
+
+    .ton_pos {
+        left: 310px;
+    }
+    /*end counter_reques*/
+
+    .deal_volume
+    {
+        margin-right: 0;
+    }
+
+    .for_requests .deal_volume
+    {
+        display: none;
+    }
+    .flex-row {
+        flex-flow: column;
+        align-items: baseline;
+    }
+    .flex-row .min_max_val {
+        margin-right: auto;
+    }
+    .rowed {
+        width: auto;
+    }
+
+    .list_page_rows .line_area .line_additional .prop_area.adress_val.with_graph .val_adress
+    {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 410px)
+{
+    .list_page_rows .line_area .line_additional .prop_area.with_graph.show .graph_area_tab
+    {
+        width: 80px;
+    }
+
+    /*counter_reques*/
+    .counter_request_additional_data input[name="volume"][type="text"] {
+        width: 210px;
+    }
+    /*end counter_reques*/
+}
+
+@media screen and (max-width: 390px)
+{
+    /*counter_reques*/
+    .content .counter_request_additional_data .row_val.min_max_val
+    {
+        /*margin-left: -25px;
+        margin-right: -25px;*/
+    }
+    /*end counter_reques*/
+}
+
+@media screen and (max-width: 380px)
+{
+    /*counter_reques*/
+    .ton_pos {
+        display: none;
+    }
+    /*end counter_reques*/
+
+    .for_requests .road_len
+    {
+        margin-right: -15px;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .content .counter_request_additional_data .row_val.min_max_val
+    {
+        margin-right: -10px;
+    }
+
+    .content .counter_request_additional_data .min_max_val .minus.minus_bg,
+    .content .counter_request_additional_data .min_max_val .max_price
+    {
+        margin-left: 5px;
+    }
+}
+
+.toggle-header {
+    color: #478bb7;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+    display: inline-block;
+}

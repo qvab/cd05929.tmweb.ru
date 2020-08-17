@@ -1,0 +1,47 @@
+.tk_request_form .row .needItem{
+    float: left;
+    color: #c10000;
+    width: 10px;
+    position: relative;
+    top: 22px;
+    font-size: 18px;
+}
+
+.tk_request_form .row .holder{
+    margin-left: 10px;
+}
+
+.tk_request_form .row .holder textarea {
+    width: 435px;
+    max-width: 435px;
+    min-width: 270px;
+    min-height: 80px;
+    max-height: 550px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 0;
+    border-left: 10px solid #475663;
+}
+
+.tk_request_form .success{
+    width: 100%;
+    background: #d7efd7;
+    padding: 16px;
+    margin-bottom: 24px;
+    margin-top: 25px;
+    max-width: 480px;
+    text-align: center;
+    color: #5c5c5c;
+}
+
+@media (max-width: 480px) {
+    .tk_request_form .row .holder textarea{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .tk_request_form .row.policy_row{
+        margin-bottom: 70px;
+    }
+}

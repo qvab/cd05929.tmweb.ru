@@ -1,0 +1,16 @@
+.tab_form.restore_pass.reg_form_control_tabs
+{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+form.restore_form .field.inactive
+{
+    display: none;
+}
+
+.content form.restore_form .row
+{
+    margin-top: 0;
+    position: relative;
+}
